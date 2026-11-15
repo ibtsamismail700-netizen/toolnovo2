@@ -11,7 +11,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
-<!-- Firebase SDK (used only by the Blog Admin Panel — login + online post storage) -->
+<!-- Firebase SDK (used only by the private owner area — login + online post storage) -->
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
 <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
@@ -3203,7 +3203,7 @@ setTimeout(tnShowCookieBanner,700);
    ----------------------------------------------------------------------------
    This is the ONE place you need to touch to switch on the real Admin Panel.
    1. Create a free Firebase project (full steps are on the Admin page itself:
-      open the site, go to the footer and click "Admin Panel", or visit #/admin).
+      open the site and visit #/admin directly — there is no public link to it).
    2. In Firebase: Project settings → "Your apps" → Web app → copy the values
       Firebase shows you and paste them below, replacing every PASTE_HERE.
    3. Re-upload this single index.html file to your website ONE last time.
@@ -3994,8 +3994,9 @@ blogIndexSec.innerHTML="<div class='blog-head'><h1>ToolNovo Blog</h1><p>Plain-En
 blogMain.appendChild(blogIndexSec);
 var blogPostSec=document.createElement("section");blogPostSec.className="blog-view";blogPostSec.id="blogPostView";blogMain.appendChild(blogPostSec);
 var adminSec=document.createElement("section");adminSec.className="blog-view";adminSec.id="adminPage";
-adminSec.innerHTML="<div class='static-card' style='max-width:900px'><h1>Blog Admin Panel</h1><p class='updated'>ToolNovo Admin — publish posts for every visitor. No code, no repository.</p>"
-+"<div id='admNotConnected'><div class='admin-note'><b>Admin not connected yet</b><p>This admin panel is built and ready, but it is not linked to your free Firebase account yet, so the login is switched off for now. Follow the one-time <b>Admin Setup</b> steps at the bottom of this page (about 10 minutes, completely free). After that one setup, this page becomes your private login panel: you log in, write a post, press Publish — and it is live for every visitor. You will never need to open the GitHub repository to publish a post again.</p></div></div>"
+adminSec.innerHTML="<div class='static-card' style='max-width:900px'><h1>Admin Panel</h1><p class='updated'>You found it — this page IS the ToolNovo Admin Panel. From here you manage the whole site: blog posts, tools, settings, ads, messages and backup. No code, no repository.</p>"
++"<div style='display:flex;gap:8px;flex-wrap:wrap;margin:0 0 20px'><span class='tag'>Blog Posts</span><span class='tag'>Add a Tool</span><span class='tag'>Site Settings</span><span class='tag'>Ads Manager</span><span class='tag'>Categories</span><span class='tag'>Messages</span><span class='tag'>Backup</span></div>"
++"<div id='admNotConnected'><div class='admin-note'><b>You are in the Admin Panel — one step left: connect your login</b><p>Everything on this page is built and ready. The only thing missing is the link to your free Firebase account, so the login is switched off for now. Follow the one-time <b>Admin Setup</b> steps at the bottom of this page (about 10 minutes, completely free). After that one setup, this page becomes your private login panel: you log in, write a post, press Publish — and it is live for every visitor. You will never need to open the GitHub repository to publish a post again.</p></div></div>"
 +"<div id='admLoginBox' style='display:none'><h2 style='font-size:1.25rem;font-weight:800;margin:6px 0 12px'>Admin login</h2>"
 +"<div class='field'><label for='admEmail'>Email</label><input type='text' id='admEmail' placeholder='Your admin email' autocomplete='username' /></div>"
 +"<div class='field'><label for='admPass'>Password</label><input type='password' id='admPass' placeholder='Your admin password' autocomplete='current-password' style='width:100%;padding:11px 13px;border:1.5px solid var(--line);border-radius:10px;background:var(--bg);color:var(--ink);font:inherit;font-size:.98rem' /></div>"
@@ -4142,8 +4143,7 @@ document.getElementById("admCancelEdit").addEventListener("click",function(){adm
 /* ---------- Nav, footer, sitemap ---------- */
 (function(){var nav=document.querySelector("nav.main");if(nav&&!nav.querySelector("[data-blog-home]")){var a=document.createElement("a");a.href="#/blog";a.textContent="Blog";a.setAttribute("data-blog-home","");nav.insertBefore(a,nav.firstChild);}
 var siteCol=null;document.querySelectorAll("footer.site .f-links").forEach(function(fl){if(fl.querySelector("[data-page-link='sitemap']"))siteCol=fl;});
-if(siteCol){var b1=document.createElement("a");b1.href="#/blog";b1.textContent="Blog";b1.setAttribute("data-blog-home","");siteCol.insertBefore(b1,siteCol.children[1]||null);var b2=document.createElement("a");b2.href="#/admin";b2.textContent="Admin Panel";b2.setAttribute("data-admin-link","");siteCol.appendChild(b2);}
-document.addEventListener("click",function(e){var al=e.target.closest("[data-admin-link]");if(al){e.preventDefault();showAdmin();}});
+if(siteCol){var b1=document.createElement("a");b1.href="#/blog";b1.textContent="Blog";b1.setAttribute("data-blog-home","");siteCol.insertBefore(b1,siteCol.children[1]||null);}
 var sm=document.querySelector("#page-sitemap .page-body");if(sm){var d=document.createElement("div");d.innerHTML="<h2>Blog ("+BLOG_POSTS.length+" posts)</h2><ul>"+BLOG_POSTS.map(function(p){return "<li><a href='#/blog/"+p.slug+"' data-blog-link='"+p.slug+"'><b>"+blogEsc(p.title)+"</b></a> — "+blogEsc(p.cat)+"</li>";}).join("")+"</ul><p><a href='#/blog' data-blog-home><b>Visit the Blog →</b></a></p>";sm.appendChild(d);}})();
 
 /* ---------- Homepage extras: featured tools, why, latest posts + theme polish ---------- */
