@@ -413,6 +413,8 @@ nav.main a:hover{background:var(--surface);border-color:var(--ink);color:var(--i
 .searchbar input{border:0;background:transparent;border-radius:999px;font-weight:600;color:var(--ink)}
 .searchbar input:focus{outline:none;box-shadow:none;border-color:transparent}
 .searchbar input::placeholder{color:#8a8574}
+.searchbar svg{flex-shrink:0;margin-left:12px}
+.btn.btn-ink{background:var(--ink);color:#FFF6E3}
 .hero-stats{gap:10px}
 .hero-stats span{background:var(--surface);border:2px solid var(--ink);border-radius:999px;padding:5px 13px;font-family:var(--mono);font-size:.8rem;letter-spacing:.03em;color:var(--ink)}
 .hero-stats b{color:var(--brand)}
@@ -433,6 +435,7 @@ nav.main a:hover{background:var(--surface);border-color:var(--ink);color:var(--i
 .chip[data-cat="creator"]{background:var(--lav)}
 .chip[data-cat="seo"]{background:var(--lime)}
 .chip[data-cat="pdf"]{background:#F0B8FF}
+.chip[data-cat="featured"]{background:#10B981}
 .chip.active[data-cat]{background:var(--ink)}
 .chip-blog{background:var(--lime);border-color:var(--ink);color:var(--ink)}
 
@@ -504,11 +507,11 @@ canvas.tool-canvas{border:var(--b2);border-radius:12px}
 .blog-card .bmeta{font-family:var(--mono)}
 
 /* Footer + cookie + toast */
-footer.site{border-top:var(--b2);background:#FFEFC9;color:#4a463a;margin-top:56px}
-footer.site h4{color:var(--ink);font-weight:800}
-footer.site .f-links a{color:#4a463a}
-footer.site .f-links a:hover{color:var(--brand)}
-footer.site .f-bottom{border-top:2px solid var(--ink)}
+footer.site{border-top:3px solid var(--ink);background:var(--ink);color:#c9c3ae;margin-top:58px}
+footer.site h4{color:var(--lime);font-weight:700}
+footer.site .f-links a{color:#e9e4d2}
+footer.site .f-links a:hover{color:var(--lime)}
+footer.site .f-bottom{border-top:1.5px solid #3a382e}
 .cookie-banner{background:var(--surface);border:var(--b2);border-radius:16px;box-shadow:var(--shadow)}
 .toast{background:var(--ink);color:#FFF6E3;border:var(--b2);border-color:#FFF6E3;border-radius:999px;box-shadow:var(--shadow-sm)}
 @media (prefers-reduced-motion: reduce){.card:hover,.blog-card:hover,.chip:hover,.btn:hover,.how:hover,.related-card:hover{transform:none}}
@@ -538,7 +541,9 @@ footer.site .f-bottom{border-top:2px solid var(--ink)}
     <h1>Free <em>Online Tools</em></h1>
     <p class="lede">Fast, free, and easy-to-use tools for developers, students, and everyone. No signup required.</p>
     <div class="searchbar">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#141310" stroke-width="2.6" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.8-3.8"/></svg>
       <input type="text" id="toolSearch" placeholder="Search 124 tools — try “VAT”, “BMI”, “JSON”, “loan”…" aria-label="Search tools" />
+      <button class="btn btn-ink" type="button" id="heroSearchBtn">Search</button>
     </div>
     <div class="hero-stats">
       <span><b>124</b> working tools</span>
@@ -553,6 +558,7 @@ footer.site .f-bottom{border-top:2px solid var(--ink)}
     <div class="filters" role="group" aria-label="Filter tools by category">
       <a class="chip chip-blog" href="#/blog" data-blog-home>Blog — 29 guides</a>
       <button class="chip active" data-cat="all">All 124 tools</button>
+      <button class="chip" data-cat="featured">★ Featured Tools</button>
       <button class="chip" data-cat="finance">Money &amp; Finance</button>
       <button class="chip" data-cat="health">Health &amp; Fitness</button>
       <button class="chip" data-cat="math">Math &amp; Dates</button>
@@ -1120,11 +1126,14 @@ var ICONS={
 };
 var TILECOLORS={finance:["#FFD23F","#141310"],health:["#BDEB9E","#141310"],math:["#A7EBC8","#141310"],text:["#FFB3C7","#141310"],media:["#8ED8F8","#141310"],study:["#BFE3FF","#141310"],fun:["#FF8A7A","#141310"],home:["#FFC59E","#141310"],creator:["#D9C6FF","#141310"],seo:["#C8F542","#141310"],pdf:["#F0B8FF","#141310"]};
 var activeCat="all";
+var FEATURED_IDS=["mortgage","password","image","words","bmi","qr","vat","gpa","mergepdf","summarizer"];
+window.FEATURED_IDS=FEATURED_IDS;
 function renderGrid(){
   var q=($("toolSearch").value||"").toLowerCase().trim();
   var grid=$("toolGrid");grid.innerHTML="";var shown=0;
   TOOLS.forEach(function(t){
-    if(activeCat!=="all"&&t.cat!==activeCat)return;
+    if(activeCat==="featured"){if(FEATURED_IDS.indexOf(t.id)===-1)return;}
+    else if(activeCat!=="all"&&t.cat!==activeCat)return;
     if(q&&(t.name+" "+t.desc+" "+t.tag).toLowerCase().indexOf(q)===-1)return;
     shown++;
     var b=document.createElement("button");b.className="card";b.type="button";
@@ -3384,7 +3393,7 @@ route();
 (function(){var host=document.querySelector("#page-sitemap .page-body");if(!host)return;var html="<p>Every page on ToolNovo in one place: all 124 tools \u2014 each with its own page and full guide \u2014 plus every information and legal page.</p>";Object.keys(CATNAMES).forEach(function(cat){var list=TOOLS.filter(function(x){return x.cat===cat;});if(!list.length)return;html+="<h2>"+CATNAMES[cat]+" ("+list.length+" tools)</h2><ul>"+list.map(function(x){return "<li><a href='#/tool/"+x.id+"' data-tool-link='"+x.id+"'><b>"+x.name+"</b></a> \u2014 "+x.desc+"</li>";}).join("")+"</ul>";});html+="<h2>Site pages</h2><ul><li><a href='#/blog' data-blog-home><b>Blog</b></a></li><li><a href='#/page/about' data-page-link='about'><b>About Us</b></a></li><li><a href='#/page/contact' data-page-link='contact'><b>Contact Us</b></a></li><li><a href='#/page/guides' data-page-link='guides'><b>Guides</b></a></li><li><a href='#/page/privacy' data-page-link='privacy'><b>Privacy Policy</b></a></li><li><a href='#/page/terms' data-page-link='terms'><b>Terms of Service</b></a></li><li><a href='#/page/disclaimer' data-page-link='disclaimer'><b>Disclaimer</b></a></li><li><a href='#/page/dmca' data-page-link='dmca'><b>DMCA / Copyright Policy</b></a></li></ul>";host.innerHTML=html;})();
 /* ---------- Cookie consent (choice stored in this page for the session) ---------- */
 var tnConsentChoice=null;
-function tnShowCookieBanner(){var b=document.getElementById("cookieBanner");if(b&&!tnConsentChoice)b.classList.add("show");}
+function tnShowCookieBanner(){var b=document.getElementById("cookieBanner");if(b&&!tnConsentChoice){if(window.matchMedia&&window.matchMedia("(max-width: 640px)").matches){var m=document.querySelector("main");if(m&&b.parentNode!==m)m.insertBefore(b,m.firstChild);b.classList.add("docked");}b.classList.add("show");}}
 function tnSetConsent(v){tnConsentChoice=v;var b=document.getElementById("cookieBanner");if(b)b.classList.remove("show");toast(v==="accepted"?"Thanks — advertising cookies accepted for this visit.":"Understood — advertising cookies declined for this visit.");}
 var caBtn=document.getElementById("cookieAccept"),cdBtn=document.getElementById("cookieDecline");
 if(caBtn)caBtn.addEventListener("click",function(){tnSetConsent("accepted");});
@@ -4174,8 +4183,9 @@ var homeExtras=[];
 function featuredCard(id){var t=(typeof toolById==="function")?toolById(id):null;if(!t)return "";return "<button type='button' class='card' data-tool-link='"+id+"'><span class='icon'>✦</span><h3>"+blogEsc(t.name)+"</h3><p>"+blogEsc(t.desc)+"</p><span class='meta'><span class='tag'>"+blogEsc(t.tag||"Tool")+"</span><span class='go'>Open tool →</span></span></button>";}
 (function(){
   var toolsSec=document.getElementById("tools");
-  var feat=document.createElement("section");feat.className="section home-extra";feat.id="featuredSec";feat.innerHTML="<h2>Featured tools</h2><p class='sub'>The tools visitors reach for most — free, instant, and private by design.</p><div class='grid'>"+["mortgage","password","image","words","bmi","qr","vat","gpa"].map(featuredCard).join("")+"</div>";
-  if(toolsSec&&toolsSec.parentNode)toolsSec.parentNode.insertBefore(feat,toolsSec);homeExtras.push(feat);
+  /* Featured tools are not a separate section: they live in the "Featured Tools"
+     category chip in the directory filters above the grid, listed exactly like
+     every other category's tools (see FEATURED_IDS + renderGrid). */
   var why=document.createElement("section");why.className="section home-extra";why.innerHTML="<h2>Why use ToolNovo?</h2><p class='sub'>Built to be the tool site we always wanted to use.</p><div class='how-grid'><div class='how'><span class='n'>✓</span><h3>Private by design</h3><p>Every tool runs in your browser. Your files, text and numbers are never uploaded to a server.</p></div><div class='how'><span class='n'>✓</span><h3>Genuinely free</h3><p>No accounts, no trials, no usage limits — open a tool and use it, as often as you like.</p></div><div class='how'><span class='n'>✓</span><h3>Guides with every tool</h3><p>Each tool comes with a full written guide: steps, a worked example, mistakes to avoid and an FAQ.</p></div><div class='how'><span class='n'>✓</span><h3>Works everywhere</h3><p>Phone, tablet or computer — every tool and article is built to work properly on any screen.</p></div></div>";
   var faqSec=document.getElementById("faq");if(faqSec&&faqSec.parentNode)faqSec.parentNode.insertBefore(why,faqSec);homeExtras.push(why);
   var latest=document.createElement("section");latest.className="section home-extra";latest.id="homeLatest";latest.innerHTML="<h2>Latest from the Blog</h2><p class='sub'>Plain-English guides on money, security and the web — fresh reading, added regularly.</p><div class='blog-grid'>"+BLOG_POSTS.slice(0,6).map(function(p){return "<button type='button' class='blog-card' data-blog-open='"+p.slug+"'><span class='bmeta'><span class='tag'>"+blogEsc(p.cat)+"</span><span>"+blogEsc(p.date)+"</span><span>· "+blogReadTime(p.body)+" min read</span></span><h3>"+blogEsc(p.title)+"</h3><p>"+blogEsc(p.excerpt)+"</p><span style='font-weight:700;color:var(--brand);font-size:.9rem'>Read post →</span></button>";}).join("")+"</div><div class='btn-row' style='margin-top:14px'><a class='btn secondary' href='#/blog' data-blog-home>View all blog posts →</a></div>";
@@ -4188,24 +4198,61 @@ function hideHomeExtras(){homeExtras.forEach(function(s){s.classList.add("hidden
 (function(){var origShowHome=window.showHome;if(typeof origShowHome==="function"){window.showHome=function(){var r=origShowHome.apply(null,arguments);homeExtras.forEach(function(s){s.classList.remove("hidden");});return r;};}})();
 /* Theme polish (injected so it applies on every page) */
 (function(){var st=document.createElement("style");st.textContent=
-".hero{padding:56px 0 30px;background:linear-gradient(180deg,rgba(16,185,129,.10),rgba(16,185,129,0) 78%),radial-gradient(640px 300px at 12% -40px,rgba(16,185,129,.18),transparent 65%),radial-gradient(520px 260px at 95% -30px,rgba(217,119,6,.12),transparent 60%);border-bottom:1px solid var(--line);margin:0 -20px;padding-left:20px;padding-right:20px}"
-+".hero h1{font-size:clamp(2.3rem,5.4vw,3.4rem)}"
-+".hero .searchbar input{box-shadow:var(--shadow);border-radius:14px}"
+".hero{padding:64px 0 30px;background:transparent;margin:0 -20px;padding-left:20px;padding-right:20px}"
++".hero h1{font-size:clamp(42px,7.2vw,84px)}"
++".hero p.lede{font-size:19px;max-width:620px}"
 +".hero{text-align:center}.hero h1{margin-left:auto;margin-right:auto}.hero p.lede{margin-left:auto;margin-right:auto}.hero .searchbar{margin-left:auto;margin-right:auto}.hero-stats{justify-content:center}"
-+".hero-trust{display:flex;gap:10px 22px;flex-wrap:wrap;margin-top:14px;font-weight:700;font-size:.92rem;color:var(--brand);justify-content:center}"
-+".card,.blog-card{transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease}"
-+".card:hover,.blog-card:hover{transform:translateY(-3px);box-shadow:0 4px 8px rgba(15,31,56,.06),0 16px 34px rgba(15,31,56,.10)}"
-+"header.site{box-shadow:0 6px 22px rgba(15,31,56,.06)}"
-+"footer.site{background:linear-gradient(180deg,var(--surface),var(--surface2));border-top:2px solid var(--brand-soft);padding-top:36px}"
-+".chip{transition:all .15s ease}.section h2{position:relative;padding-bottom:8px}.section h2:after{content:'';position:absolute;left:50%;transform:translateX(-50%);bottom:0;width:46px;height:3px;border-radius:2px;background:linear-gradient(90deg,var(--brand),var(--accent))}"
++".hero-stats span::before{content:'✓ ';color:#0B8A62;font-weight:700}"
++".hero-trust{display:none}"
++".wrap{max-width:1180px}"
++"header.site{box-shadow:none}"
++"nav.main a{font-size:15px;padding:8px 16px}"
++".searchbar input{font-size:17px;font-weight:600;box-shadow:none}"
++".searchbar .btn{box-shadow:none;flex-shrink:0}"
++".filters{margin:38px 0 20px}"
++".chip{display:inline-flex;align-items:center;gap:8px;min-height:44px;padding:9px 18px;font-size:14.5px}"
++".chip .n{font-family:var(--mono);font-size:11.5px;font-weight:700;background:var(--ink);color:#FFF6E3;border-radius:999px;padding:1px 8px}"
++".chip.active .n{background:var(--lime);color:var(--ink)}"
++"#toolGrid{grid-template-columns:repeat(2,1fr);gap:20px}"
++"#toolGrid .card{display:grid;grid-template-columns:52px 1fr;column-gap:14px;row-gap:10px;align-items:start;padding:24px 24px 20px}"
++"#toolGrid .card .icon{width:52px;height:52px;font-size:19px;grid-row:1}"
++"#toolGrid .card h3{grid-row:1;align-self:center;font-size:20px;margin:0}"
++"#toolGrid .card p{grid-column:1/-1;font-size:15px}"
++"#toolGrid .card .meta{grid-column:1/-1;margin-top:2px}"
++".card .tag,.blog-card .tag{font-family:inherit;font-size:12px;text-transform:none;letter-spacing:0;padding:2px 10px;font-weight:700}"
++".card .go{font-size:15px;font-weight:800}"
++".card:hover,.blog-card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}"
++"#toolGrid .card:hover,.blog-grid .blog-card:hover,.related-grid .related-card:hover{transform:translate(-3px,-3px);box-shadow:9px 9px 0 var(--ink)}"
++".section{padding:58px 0 8px}"
++".section h2{font-size:clamp(30px,4.4vw,46px);text-align:center}"
++".section p.sub{font-size:17px;text-align:center}"
++".blog-grid{gap:20px}"
++".blog-card{padding:20px 22px 22px;gap:9px}"
++".blog-card h3{font-size:20px}"
++".blog-card p{font-size:15px}"
++".blog-card .bmeta{font-size:12px;letter-spacing:.07em;text-transform:uppercase;color:#5c5747}"
++".blog-card>span:last-child{color:var(--ink)!important;border-bottom:3px solid var(--lime);padding-bottom:1px;align-self:flex-start}"
++".no-results{border:var(--b2);box-shadow:var(--shadow-sm);padding:34px;font-weight:700;font-size:17px;color:var(--ink)}"
++"footer.site{background:var(--ink);color:#c9c3ae;border-top:3px solid var(--ink);padding-top:48px;padding-bottom:22px;margin-top:58px}"
++"footer.site .f-grid{gap:28px}"
++"footer.site h4{color:var(--lime);font-family:var(--mono);font-size:14px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;margin:0 0 14px}"
++"footer.site .f-links{gap:9px}"
++"footer.site .f-links a{color:#e9e4d2;font-size:14.5px;font-weight:600}"
++"footer.site a{color:#e9e4d2}"
++"footer.site .f-links a:hover,footer.site a:hover{color:var(--lime)}"
++"footer.site b{color:#FFF6E3!important}"
++"footer.site .f-bottom{border-top:1.5px solid #3a382e;color:#a49d88;font-size:13.5px;font-weight:600;margin-top:34px;padding-top:18px}"
 +".tool-head{flex-direction:column;align-items:center;text-align:center}.blog-head{text-align:center}.static-card h1,.static-card .updated{text-align:center}.article h2{text-align:center}"
-+".article,.static-card{box-shadow:0 2px 4px rgba(15,31,56,.05),0 14px 34px rgba(15,31,56,.07)}"
-+".btn{box-shadow:0 6px 16px rgba(5,150,105,.22)}";
-document.head.appendChild(st);})();
++"@media (max-width:900px){#toolGrid{grid-template-columns:1fr}}"
++"@media (max-width:520px){.searchbar{flex-direction:column;border-radius:22px;padding:10px;gap:10px}.searchbar svg{display:none}.searchbar input{width:100%;text-align:center}.searchbar .btn{width:100%}}"
++"@media (max-width:640px){.cookie-banner.docked{position:static;max-width:none;margin:14px 0 0}.header-in{flex-wrap:wrap;gap:8px;padding:10px 0}.logo small{display:none}nav.main{margin-left:0;width:100%;justify-content:space-between;gap:2px}nav.main a{font-size:14px;padding:6px 9px}.hero{padding-top:44px;padding-bottom:22px}}";
+document.head.appendChild(st);
+var sb=document.getElementById("heroSearchBtn");if(sb)sb.addEventListener("click",function(){if(typeof renderGrid==="function")renderGrid();var g=document.getElementById("toolGrid");if(g)g.scrollIntoView({behavior:"smooth",block:"start"});});
+})();
 /* ---------- Homepage refresh helpers ---------- */
 function refreshHomeLatest(){var sec=document.getElementById("homeLatest");if(!sec)return;var grid=sec.querySelector(".blog-grid");if(!grid)return;grid.innerHTML=blogAllPosts().slice(0,6).map(function(p){return "<button type='button' class='blog-card' data-blog-open='"+blogEsc(p.slug)+"'><span class='bmeta'><span class='tag'>"+blogEsc(p.cat)+"</span><span>"+blogEsc(p.date)+"</span><span>· "+p.read+" min read</span></span><h3>"+blogEsc(p.title)+"</h3><p>"+blogEsc(p.excerpt)+"</p><span style='font-weight:700;color:var(--brand);font-size:.9rem'>Read post →</span></button>";}).join("");}
 function refreshBlogSurfaces(){refreshHomeLatest();if(blogIndexSec.classList.contains("show"))renderBlogGrid();}
-function renderFeatured(){var sec=document.getElementById("featuredSec");if(!sec)return;var grid=sec.querySelector(".grid");if(!grid)return;grid.innerHTML=["mortgage","password","image","words","bmi","qr","vat","gpa"].map(featuredCard).join("");}
+function renderFeatured(){if(window.activeCat==="featured"&&typeof renderGrid==="function")renderGrid();}
 
 blogRoute();
 </script>
@@ -4820,11 +4867,24 @@ PAGES.faqs={title:"Frequently Asked Questions",updated:"Quick answers about Tool
   /* Sitemap page: add FAQs to site pages list */
   var sm=document.querySelector("#page-sitemap .page-body");
   if(sm){var d=document.createElement("div");d.innerHTML="<h2>Help</h2><ul><li><a href='#/page/faqs' data-page-link='faqs'><b>Frequently Asked Questions</b></a> — free use, privacy, accuracy and getting help.</li></ul>";sm.appendChild(d);}
-  /* Featured tools: add two new tools to the pool */
+  /* Featured tools pool — shown by the "Featured Tools" category chip in the directory */
   var featIds=["mortgage","password","image","words","bmi","qr","vat","gpa","mergepdf","summarizer"];
-  function fillFeatured(){var sec2=document.getElementById("featuredSec");if(!sec2||typeof featuredCard!=="function")return;var g=sec2.querySelector(".grid");if(g)g.innerHTML=featIds.map(featuredCard).join("");}
+  function fillFeatured(){featIds.forEach(function(id){if(window.FEATURED_IDS&&window.FEATURED_IDS.indexOf(id)===-1)window.FEATURED_IDS.push(id);});if(window.activeCat==="featured"&&typeof renderGrid==="function")renderGrid();}
   fillFeatured();
   window.renderFeatured=function(){fillFeatured();};
+  /* Category count badges on the filter pills, like the demo pill bar */
+  window.tnChipCounts=function(){
+    document.querySelectorAll("#tools .filters .chip[data-cat]").forEach(function(ch){
+      var cat=ch.getAttribute("data-cat"); if(cat==="all")return;
+      var n=0;
+      if(cat==="featured"){n=(window.FEATURED_IDS||[]).length;}
+      else if(typeof TOOLS!=="undefined"){for(var i=0;i<TOOLS.length;i++)if(TOOLS[i].cat===cat)n++;}
+      var badge=ch.querySelector(".n");
+      if(!badge){badge=document.createElement("span");badge.className="n";ch.appendChild(badge);}
+      badge.textContent=n;
+    });
+  };
+  window.tnChipCounts();
   if(typeof renderGrid==="function")renderGrid();
 })();
 })();
@@ -4891,6 +4951,7 @@ PAGES.faqs={title:"Frequently Asked Questions",updated:"Quick answers about Tool
     if(blogChip)blogChip.textContent="Blog — "+BLOG_POSTS.length+" guides";
     var search=document.getElementById("toolSearch");
     if(search)search.setAttribute("placeholder","Search "+TOOLS.length+" tools — try “VAT”, “BMI”, “JSON”, “loan”…");
+    if(window.tnChipCounts)window.tnChipCounts();
   }
 
   /* ---------- settings & ads ---------- */
@@ -5053,12 +5114,9 @@ PAGES.faqs={title:"Frequently Asked Questions",updated:"Quick answers about Tool
       reroute();
     }
     if(featuredIds.length){
-      var grid=document.querySelector("#featuredSec .grid");
-      if(grid&&typeof featuredCard==="function")featuredIds.forEach(function(id){
-        if(grid.querySelector("[data-tool-link='"+id+"']"))return;
-        var tmp=document.createElement("div"); tmp.innerHTML=featuredCard(id);
-        if(tmp.firstChild)grid.appendChild(tmp.firstChild);
-      });
+      /* Admin-flagged featured tools join the Featured Tools category in the directory */
+      featuredIds.forEach(function(id){ if(window.FEATURED_IDS&&window.FEATURED_IDS.indexOf(id)===-1)window.FEATURED_IDS.push(id); });
+      if(window.activeCat==="featured"&&typeof renderGrid==="function")renderGrid();
     }
   }
 
