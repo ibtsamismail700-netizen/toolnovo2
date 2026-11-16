@@ -4,9 +4,93 @@
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
 <meta name="color-scheme" content="light dark" />
-<meta name="description" content="ToolNovo – Free Online Tools. Fast, free, and easy-to-use tools for developers, students, and everyone. No signup required. 124 free tools and calculators, each on its own page with a full step-by-step guide — everything runs in your browser." />
+<meta name="description" content="124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://toolnovo.net/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ToolNovo" />
+<meta property="og:title" content="ToolNovo – Free Online Tools: 124 Calculators & More" />
+<meta property="og:description" content="124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser." />
+<meta property="og:url" content="https://toolnovo.net/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="ToolNovo – Free Online Tools: 124 Calculators & More" />
+<meta name="twitter:description" content="124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser." />
 <link rel="icon" href="data:," />
-<title>ToolNovo – Free Online Tools</title>
+<title>ToolNovo – Free Online Tools: 124 Calculators & More</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ToolNovo",
+  "url": "https://toolnovo.net/",
+  "description": "124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ToolNovo",
+  "url": "https://toolnovo.net/",
+  "email": "support@toolnovo.net"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are these tools really free?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes — all 124 tools are completely free with no sign-up, no trial and no usage limits. Use them as often as you like, on phone, tablet or computer."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is my data private? Do you upload my files?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No. Every tool runs entirely in your web browser using JavaScript. Your images, text, passwords and numbers are processed on your own device and are never sent to or stored on a server."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How accurate is the mortgage calculator?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It uses the standard amortization formula lenders use, so the principal-and-interest figure is accurate for a fixed-rate loan. Your real payment may differ because taxes, insurance, HOA fees and lender charges vary — treat the result as a solid estimate for comparing homes and loan terms."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How much should I tip in the US and UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "In the US, tipping is a core part of service workers' pay: 15% is the minimum for adequate service, 18–20% is standard for good service, and 22–25% rewards excellent service. In the UK, 10–12.5% is customary in restaurants, and many bills already include a service charge — check before adding more."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What GPA do I need for honors?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "It varies by school, but commonly: summa cum laude ≈ 3.9+, magna cum laude ≈ 3.7+, cum laude ≈ 3.5+. A 3.0 (B average) is the minimum for many internships, scholarships and graduate programs. Always confirm your own school's thresholds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the salary calculator show take-home pay?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "No — it converts gross (before-tax) pay between annual and hourly figures. Take-home pay depends on federal and state taxes in the US, or income tax and National Insurance in the UK, plus pension and benefit deductions."
+      }
+    }
+  ]
+}
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-SY4T5Y6PKY"></script>
 <script>
@@ -99,7 +183,7 @@ a.chip{text-decoration:none;display:inline-flex;align-items:center}
 .tool-panel.open{display:block}
 .tool-head{display:flex;flex-direction:column;align-items:center;text-align:center;gap:10px;padding:28px 24px 0}
 .tool-head .icon{width:50px;height:50px;border-radius:13px;background:var(--brand-soft);color:var(--brand);display:grid;place-items:center;flex:none}
-.tool-head h2{margin:0;font-size:1.45rem;font-weight:800;letter-spacing:-.01em}
+.tool-head h2,.tool-head h1{margin:0;font-size:1.45rem;font-weight:800;letter-spacing:-.01em}
 .tool-head p{margin:3px auto 0;color:var(--muted);font-size:.95rem;max-width:620px}
 .tool-head .back-btn{margin-left:0}
 .back-btn{margin-left:auto;flex:none;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);border-radius:10px;padding:9px 14px;font:inherit;font-weight:700;font-size:.88rem;cursor:pointer;min-height:40px}
@@ -462,7 +546,7 @@ details.faq:hover{border-color:var(--ink)}
 /* Tool workspace + articles */
 .tool-panel,.article,.static-card{background:var(--surface);border:var(--b3);border-radius:22px;box-shadow:8px 8px 0 var(--ink)}
 .tool-head .icon{border:var(--b2);border-radius:13px;background:var(--brand-soft);color:var(--ink)}
-.tool-head h2{font-weight:900;letter-spacing:-.02em}
+.tool-head h2,.tool-head h1{font-weight:900;letter-spacing:-.02em}
 .back-btn{border:var(--b2);background:var(--surface);border-radius:999px;box-shadow:var(--shadow-sm);font-weight:800}
 .back-btn:hover{border-color:var(--ink);color:var(--ink);transform:translate(-1px,-1px)}
 .field input[type="text"],.field input[type="number"],.field input[type="date"],.field input[type="url"],.field select,.field textarea,.blog-search input{background:#fff;border:var(--b2);border-radius:12px;color:var(--ink)}
@@ -518,6 +602,35 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
 </style>
 </head>
 <body>
+<noscript>
+<div style="max-width:900px;margin:0 auto;padding:24px 20px;font-family:sans-serif;line-height:1.6">
+<h2>ToolNovo – Free Online Tools</h2>
+<p>ToolNovo offers 124 free online tools and calculators — including a Word Counter, Mortgage Calculator, Merge PDF and Image Compressor — plus 29 plain-English blog guides. Every tool is free with no sign-up, and everything runs in your browser, so your files and text are never uploaded. JavaScript is required to use the tools themselves.</p>
+<p><b>Categories:</b></p>
+<ul>
+<li>Money &amp; Finance</li>
+<li>Health &amp; Fitness</li>
+<li>Math &amp; Dates</li>
+<li>Text &amp; Developer</li>
+<li>Image &amp; Media</li>
+<li>Study</li>
+<li>Fun &amp; Timers</li>
+<li>Home &amp; Life</li>
+<li>Social &amp; Creators</li>
+<li>SEO &amp; Marketing</li>
+<li>PDF Tools</li>
+</ul>
+<p><b>Popular tools:</b></p>
+<ul>
+<li>Word Counter</li>
+<li>Mortgage Calculator</li>
+<li>Merge PDF</li>
+<li>Image Compressor</li>
+<li>Password Generator</li>
+<li>QR Code Generator</li>
+</ul>
+</div>
+</noscript>
 
 <header class="site">
   <div class="wrap header-in">
@@ -582,7 +695,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-mortgage">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/></svg></span>
-        <div><h2>Mortgage Calculator</h2><p>Monthly payment, total interest and payoff date for home loans.</p></div>
+        <div><h1>Mortgage Calculator</h1><p>Monthly payment, total interest and payoff date for home loans.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -633,7 +746,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-tip">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3h16v18l-2-1.5L16 21l-2-1.5L12 21l-2-1.5L8 21l-2-1.5L4 21z"/><path d="M8 8h8M8 12h8"/></svg></span>
-        <div><h2>Tip Calculator &amp; Bill Splitter</h2><p>Work out the tip and split any restaurant or bar bill fairly.</p></div>
+        <div><h1>Tip Calculator &amp; Bill Splitter</h1><p>Work out the tip and split any restaurant or bar bill fairly.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -673,7 +786,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-salary">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span>
-        <div><h2>Salary to Hourly Wage Calculator</h2><p>Convert an annual salary to an hourly rate — or the other way round.</p></div>
+        <div><h1>Salary to Hourly Wage Calculator</h1><p>Convert an annual salary to an hourly rate — or the other way round.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -712,7 +825,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-gpa">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 9L12 4 2 9l10 5 10-5z"/><path d="M6 11.5V16c0 1.7 2.7 3 6 3s6-1.3 6-3v-4.5"/><path d="M22 9v5"/></svg></span>
-        <div><h2>GPA Calculator</h2><p>US 4.0 scale — add your courses, credits and letter grades.</p></div>
+        <div><h1>GPA Calculator</h1><p>US 4.0 scale — add your courses, credits and letter grades.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -754,7 +867,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-image">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="9" cy="9" r="2"/><path d="M21 15l-5-5L5 21"/></svg></span>
-        <div><h2>Image Compressor</h2><p>Shrink JPG, PNG and WebP files for web, email and social media.</p></div>
+        <div><h1>Image Compressor</h1><p>Shrink JPG, PNG and WebP files for web, email and social media.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body">
@@ -795,7 +908,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-age">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M8 3v4M16 3v4M3 10h18"/></svg></span>
-        <div><h2>Age Calculator</h2><p>Your exact age in years, months and days — plus fun totals.</p></div>
+        <div><h1>Age Calculator</h1><p>Your exact age in years, months and days — plus fun totals.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -826,7 +939,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-words">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7V5h16v2M12 5v14M9 19h6"/></svg></span>
-        <div><h2>Word Counter</h2><p>Live word count, reading time and your most-used words.</p></div>
+        <div><h1>Word Counter</h1><p>Live word count, reading time and your most-used words.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body">
@@ -861,7 +974,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-qr">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><path d="M14 14h3v3h-3zM21 14v.01M14 21v.01M18 18h3v3h-3z"/></svg></span>
-        <div><h2>QR Code Generator</h2><p>Turn any link or text into a scannable QR code in seconds.</p></div>
+        <div><h1>QR Code Generator</h1><p>Turn any link or text into a scannable QR code in seconds.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -887,7 +1000,7 @@ footer.site .f-bottom{border-top:1.5px solid #3a382e}
     <article class="tool-panel" id="panel-password">
       <div class="tool-head">
         <span class="icon"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/><circle cx="12" cy="16" r="1.6"/></svg></span>
-        <div><h2>Password Generator</h2><p>Random, secure passwords generated on your device — never sent anywhere.</p></div>
+        <div><h1>Password Generator</h1><p>Random, secure passwords generated on your device — never sent anywhere.</p></div>
         <button class="back-btn" data-back>← All tools</button>
       </div>
       <div class="tool-body"><div class="cols">
@@ -1519,8 +1632,8 @@ genPassword();
 /* ============ Extra tools (dynamic panels) ============ */
 function mkPanel(id,title,desc,body){
   var art=document.createElement("article");art.className="tool-panel";art.id="panel-"+id;
-  art.innerHTML='<div class="tool-head"><span class="icon">'+(ICONS[id]||ICONS.mortgage)+'</span><div><h2></h2><p></p></div><button class="back-btn" type="button">← All tools</button></div><div class="tool-body">'+body+'</div>';
-  art.querySelector("h2").textContent=title;art.querySelector("p").textContent=desc;
+  art.innerHTML='<div class="tool-head"><span class="icon">'+(ICONS[id]||ICONS.mortgage)+'</span><div><h1></h1><p></p></div><button class="back-btn" type="button">← All tools</button></div><div class="tool-body">'+body+'</div>';
+  art.querySelector("h1").textContent=title;art.querySelector("p").textContent=desc;
   art.querySelector(".back-btn").addEventListener("click",closeTools);
   $("workspace").appendChild(art);
 }
@@ -3126,7 +3239,7 @@ gpa:{intro:"The GPA calculator computes your grade point average on the US 4.0 s
 gradecalc:{intro:"The grade calculator converts a test score into a percentage, a US letter grade with GPA points, and the equivalent UK degree classification. It is built for students who get a mark like 86 out of 100 and immediately want to know: what grade is that, really?",steps:["Enter points earned and points possible — or type a percentage directly.","Read your US letter grade and percentage.","Check the UK degree class if you study in Britain, and the GPA points for US transcripts."],example:"Scoring 86 out of 100 is 86% — a US B (3.0 GPA points). On a UK bachelor's degree, 86% would be a First Class mark, because UK Firsts start at 70% — the two systems use very different scales.",use:"Use it after every test or assignment to track where you stand, to convert grades when applying between different grading systems, and to set targets for the rest of a course.",mistakes:["Applying US percentages to UK degrees — a UK 65% (a 2:1) is a strong result, not a D.","Assuming every teacher uses the same letter bands — some use plus/minus, some round at boundaries.","Converting a single test instead of the weighted course average."],faq:[["What percentage is an A in the US?","Typically 90–100%, with A− at 90–92, A at 93–96 and A+ at 97+. Exact bands vary by school."],["What is a UK 2:1 in US terms?","A 2:1 is 60–69% in the UK and is the degree class most UK graduate employers require. It is roughly comparable to a US B range, though admissions offices convert case by case."]]},
 finalgrade:{intro:"The final grade calculator answers the question every student asks in exam season: what do I need on the final to get the grade I want? Enter your current grade, your target, and how much the final exam counts — it also shows the score needed for every grade band and what a specific final score would give you.",steps:["Enter your current course percentage.","Enter the overall grade you want.","Enter the final exam's weight as a percentage of the course.","Optionally enter a predicted or actual final score to see your resulting grade."],example:"You have 88% going into a final worth 25%, and you want 90% overall. You need (90 − 88 × 0.75) ÷ 0.25 = 96% on the final. Wanting 85% overall instead needs only 76% — a far calmer target.",use:"Use it to set a realistic revision target, decide where to focus effort across courses, and check whether a target is still mathematically possible before you burn out chasing it.",mistakes:["Using your current grade without checking it is weighted the same way as the syllabus says.","Forgetting other remaining work — projects and homework still to come also move the final grade.","Assuming you need 100%: often the maths shows your target is already secured or needs a surprisingly modest score."],faq:[["What if the calculator says 'not possible'?","It means even 100% on the final cannot reach that target — it also shows the maximum overall grade still available, so you can aim at the best realistic outcome."],["How is the needed score calculated?","Needed = (Target − Current × (1 − Weight)) ÷ Weight, where Weight is the final's share of the course."]]},
 age2:null,
-words:{intro:"The word and character counter counts as you type: words, characters with and without spaces, sentences, paragraphs, reading time, speaking time and your most repeated words. It is built for the limits and lengths that matter — college essays, cover letters, LinkedIn posts, articles and speeches.",steps:["Type or paste your text into the box — counts update live.","Read the counts panel for words, characters and paragraphs.","Check reading and speaking time if the text will be read or presented.","Review your top words to spot accidental repetition, then copy or clear the text."],example:"A 1,000-word article takes about 5 minutes to read (at 200 words per minute) and about 7 minutes 40 seconds to read aloud (at 130 wpm). A standard US college essay limit of 650 words is roughly 3,800–4,200 characters including spaces.",use:"Use it for essay and application limits, freelance article briefs, speech timing, meta descriptions, and checking a draft before you submit or publish it.",mistakes:["Counting characters when the limit is words — application portals are strict about which one they mean.","Pasting in hidden formatting or double spaces from a document — the no-spaces count exposes it.","Repeating your top word dozens of times without noticing — the top-words panel catches it."],faq:[["How long does it take to read 500 words?","About 2.5 minutes silently, or around 4 minutes aloud — useful for presentations and video scripts."],["Does it count numbers as words?","Yes — any run of characters separated by spaces counts as a word, matching how most editors and portals count."]]},
+words:{intro:"The word and character counter counts as you type: words, characters with and without spaces, sentences, paragraphs, reading time, speaking time and your most repeated words. It is built for the limits and lengths that matter — college essays, cover letters, LinkedIn posts, articles and speeches.",steps:["Type or paste your text into the box — counts update live.","Read the counts panel for words, characters and paragraphs.","Check reading and speaking time if the text will be read or presented.","Review your top words to spot accidental repetition, then copy or clear the text."],example:"A 1,000-word article takes about 5 minutes to read (at 200 words per minute) and about 7 minutes 40 seconds to read aloud (at 130 wpm). A standard US college essay limit of 650 words is roughly 3,800–4,200 characters including spaces.",use:"Use it for essay and application limits, freelance article briefs, speech timing, meta descriptions, and checking a draft before you submit or publish it. Whatever you call it \u2014 a word counter online, a words counter, a word count checker or a text word counter \u2014 you get the same live counts, with nothing to install.",mistakes:["Counting characters when the limit is words — application portals are strict about which one they mean.","Pasting in hidden formatting or double spaces from a document — the no-spaces count exposes it.","Repeating your top word dozens of times without noticing — the top-words panel catches it."],faq:[["How long does it take to read 500 words?","About 2.5 minutes silently, or around 4 minutes aloud — useful for presentations and video scripts."],["Does it count numbers as words?","Yes — any run of characters separated by spaces counts as a word, matching how most editors and portals count."]]},
 caseconv:{intro:"The case converter rewrites text in every standard letter case with one click: UPPERCASE, lowercase, Title Case, Sentence case, camelCase, PascalCase, snake_case, kebab-case and alternating case. Developers, writers and social media managers use these formats daily — URLs, code, headlines and hashtags all have their own rules.",steps:["Type or paste your text.","Click the case you need — the result appears below.","Copy the result with the Copy button."],example:"The phrase 'the quick brown fox' becomes THE QUICK BROWN FOX in uppercase, The Quick Brown Fox in Title Case, theQuickBrownFox in camelCase, and the-quick-brown-fox in kebab-case — the last one is exactly how it should appear in a web address.",use:"Use it for headlines, code variables, file names, URL slugs, database fields, and fixing text typed with Caps Lock on by accident.",mistakes:["Using Title Case rules for sentences — headlines and sentences follow different capitalisation.","Putting spaces or capitals in URLs — use kebab-case lowercase for web addresses.","Assuming camelCase and PascalCase are the same: PascalCase capitalises the first word too."],faq:[["What case do URLs use?","Lowercase kebab-case: words separated by hyphens, no capitals or spaces."],["What is the difference between snake_case and kebab-case?","Underscores versus hyphens. Python and databases favour snake_case; URLs and CSS favour kebab-case."]]},
 lorem:{intro:"The lorem ipsum generator creates classic placeholder text — paragraphs, sentences or individual words — for designs, mockups and page layouts. Designers use it to show how a page will look with real amounts of text before the final copy exists.",steps:["Choose paragraphs, sentences or words.","Set how many you need (up to 50).","Press Generate, then copy the text into your design."],example:"Three paragraphs produce roughly 180–260 words of placeholder copy — about the length of a typical product description block — starting with the traditional 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'",use:"Use it in website mockups, app prototypes, print layouts and client presentations where layout must be judged without real content distracting anyone.",mistakes:["Shipping a live site with lorem ipsum still on it — always do a final text sweep before launch.","Using placeholder text in a document that needs real content decisions — dummy text hides length problems.","Generating far more than the layout needs, which makes a design look heavier than the real page."],faq:[["What does lorem ipsum mean?","It is scrambled Latin based on a Cicero text from 45 BC. It is deliberately meaningless so viewers judge the design, not the words."],["How many words are in a paragraph here?","Each generated paragraph has 3–5 sentences of 6–15 words, similar to typical web copy."]]},
 dedupe:{intro:"Remove Duplicate Lines cleans a list by deleting every repeated line and keeping the first copy of each. It is the fastest way to tidy email lists, product codes, names, keywords and data exports without spreadsheet formulas.",steps:["Paste your list, one item per line.","Optionally ignore letter case, and optionally sort the result A–Z.","Press Remove duplicates, check the before/after counts, and copy the cleaned list."],example:"Paste a list of 120 email addresses collected from two sign-up forms and the tool might return 97 unique lines — 23 duplicates removed. With 'ignore case' on, Alex@Example.com and alex@example.com count as the same line.",use:"Use it for mailing lists, inventory and SKU lists, survey responses, keyword lists and merging exports from different tools.",mistakes:["Forgetting that trailing spaces used to make lines 'different' — this tool trims each line before comparing.","Turning on case-insensitive matching for things like passwords or codes, where case genuinely matters.","Deleting duplicates from data where repeats carry meaning, such as quantities in an order list."],faq:[["Does it keep the original order?","Yes, unless you tick Sort A–Z. The first occurrence of each line is kept, in place."],["Is my list uploaded anywhere?","No. The cleaning happens entirely in your browser; nothing is sent to a server."]]},
@@ -3207,7 +3320,7 @@ favicon:{intro:"The favicon generator creates the small icon that appears in bro
 meme:{intro:"The meme generator adds classic top-and-bottom caption text to any image, in the bold outlined style everyone recognises, and lets you download the finished meme as a PNG. Your image is processed on a canvas in your browser — it is never uploaded — so you can meme screenshots and personal photos safely.",steps:["Upload the image you want to caption.","Type your top text and bottom text — the preview updates as you type.","Adjust the text size slider until the captions sit well.","Download your meme as a PNG and share it."],example:"Upload a photo of a surprised cat, add 'WHEN THE WIFI DROPS' on top and 'DURING THE FINAL BOSS' below, and you have a shareable meme in under a minute — no app, no watermark, no account.",use:"Use it for social posts, group chats, classroom and team humour, and quick reaction images — anywhere a captioned picture says it faster than a paragraph.",mistakes:["Writing captions that are too long — the best memes read in two seconds; cut every word you can.","Using tiny text on a busy photo: raise the size or pick a calmer area of the image.","Sharing photos of other people without their OK — funny is not a defence; check first."],faq:[["Does it add a watermark?","No. The downloaded PNG is exactly your image plus your text — nothing else."],["What image sizes work best?","Any size works; the canvas keeps your image's proportions. Square or landscape images suit most social feeds."]]},
 emojipicker:{intro:"The emoji picker is a searchable library of the emojis people actually use — faces, gestures, hearts, animals, food, travel, objects and symbols. Tap any emoji to copy it, then paste it into a message, post, bio or document. The search understands plain words, so typing 'cat', 'fire' or 'money' finds what you mean instantly.",steps:["Browse the grid, or type a word in the search box to filter.","Tap an emoji to copy it to your clipboard.","Paste it wherever you are writing.","Repeat — your copied emoji stays on the clipboard until you copy the next one."],example:"Search 'party' and tap 🎉, search 'rocket' and tap 🚀 — two taps and your post has both, without hunting through a phone keyboard's tiny panels or remembering any codes.",use:"Use it when writing on a desktop (where emoji keyboards are clumsy), building social posts, composing bios, or finding exactly the right reaction for a message.",mistakes:["Overloading a professional message — one well-chosen emoji adds tone; ten add noise.","Assuming an emoji means the same thing to everyone: a few (like 🙏 or 😭) are read very differently across ages and cultures.","Forgetting platform rendering differs slightly — the emoji is the same character, but Apple, Google and Microsoft draw it in their own style."],faq:[["How do I copy an emoji?","Just tap or click it. A confirmation appears and the emoji is on your clipboard, ready to paste with Ctrl+V or long-press paste."],["Can I copy several at once?","Copy one, paste it, then come back for the next — or build your line in the search-adjacent text of your message as you go."]]},
 compresskb:{intro:"Compress image to KB shrinks a photo to fit an exact file-size limit — the kind demanded by job applications, exam forms, visa portals and government uploads that reject anything over 200KB, 100KB or even 20KB. Instead of guessing quality sliders, you set the target and the tool searches quality and dimensions until the file fits under it.",steps:["Choose or drop your JPG, PNG or WebP image.","Pick a target: 20KB, 50KB, 100KB, 200KB, or type a custom size.","Press Compress to target and watch it find settings that fit.","Check the final size shown, then download your compressed image."],example:"A 3.2 MB phone photo with a 100KB target comes out at about 97 KB — the tool steps the JPEG quality down and, if needed, trims the dimensions slightly — ready for an application form that would have rejected the original outright.",use:"Use it for online application forms, ID and passport photo uploads, marketplace listings with strict limits, and email attachments on slow connections.",mistakes:["Setting an unrealistically tiny target for a huge, detailed photo — physics wins; expect softer quality below about 20KB.","Compressing an already-compressed image repeatedly; always start from the original.","Forgetting to check the form's dimension rules too — some portals limit pixels as well as kilobytes."],faq:[["How does it hit the target so precisely?","It tries a series of quality settings (a binary search) and reduces dimensions only if quality alone cannot reach the target, then reports the final size before you download."],["Will the result ever be larger than my target?","The tool keeps working until the file is at or under the target, or tells you honestly if the image cannot reasonably go that small."]]},
-mergepdf:{intro:"Merge PDF combines several PDF files into a single document, in the order you select them. It is the fix for scanners that save every page separately, application packs scattered across downloads, and reports that need a cover sheet attached. Everything runs in your browser using an open-source PDF library — your documents are never uploaded.",steps:["Select two or more PDF files (use Ctrl/Cmd-click to pick several at once).","Check the list: files merge in the order shown, which is the order you selected them.","Press Merge PDFs.","Download the combined file and check the page count matches."],example:"Three files — a 2-page form, a 5-page ID scan and a 1-page letter — merge into one tidy 8-page PDF, ready to attach to a single application email instead of three separate files.",use:"Use it for job and university applications, contracts with annexes, combining scanned pages, and building one clean handout from several documents.",mistakes:["Selecting files in the wrong order — the merge follows selection order, so pick the cover or first document first.","Merging password-protected PDFs: protected files must be unlocked by their owner first.","Assuming scanned pages will become searchable text — merging preserves pages exactly; it does not add OCR."],faq:[["Is there a file limit?","You can merge as many files as your device memory handles comfortably — dozens of normal documents is fine. Very large scans may be slow on older phones."],["Are my PDFs uploaded to a server?","No. Merging happens entirely in your browser; the files never leave your device."]]},
+mergepdf:{intro:"Merge PDF combines several PDF files into a single document, in the order you select them. It is the fix for scanners that save every page separately, application packs scattered across downloads, and reports that need a cover sheet attached. Everything runs in your browser using an open-source PDF library — your documents are never uploaded.",steps:["Select two or more PDF files (use Ctrl/Cmd-click to pick several at once).","Check the list: files merge in the order shown, which is the order you selected them.","Press Merge PDFs.","Download the combined file and check the page count matches."],example:"Three files — a 2-page form, a 5-page ID scan and a 1-page letter — merge into one tidy 8-page PDF, ready to attach to a single application email instead of three separate files.",use:"Use it for job and university applications, contracts with annexes, combining scanned pages, and building one clean handout from several documents. If you need to merge PDF online in a hurry, this does it in under a minute \u2014 no upload, no account and no watermark.",mistakes:["Selecting files in the wrong order — the merge follows selection order, so pick the cover or first document first.","Merging password-protected PDFs: protected files must be unlocked by their owner first.","Assuming scanned pages will become searchable text — merging preserves pages exactly; it does not add OCR."],faq:[["Is there a file limit?","You can merge as many files as your device memory handles comfortably — dozens of normal documents is fine. Very large scans may be slow on older phones."],["Are my PDFs uploaded to a server?","No. Merging happens entirely in your browser; the files never leave your device."]]},
 splitpdf:{intro:"Split PDF does the two jobs people actually need: extract a page range — pages 3–5, or 1, 4 and 7 — into a new smaller PDF, or split a whole document into one file per page. It is how you send just the signed page of a contract, or pull one chapter out of a manual, without printing and rescanning anything.",steps:["Choose your PDF file — the tool shows its page count.","To extract: type a range like 2-4 or single pages like 1,3,6 and press Extract pages.","To split fully: press Split every page and each page downloads as its own PDF.","Check the downloaded file has exactly the pages you wanted."],example:"From a 40-page tenancy agreement, extracting pages 38-40 gives you just the signature pages to return — a 3-page PDF instead of the whole contract — in seconds.",use:"Use it for returning signed pages, sharing one chapter or section, trimming oversized documents for email limits, and separating combined scans.",mistakes:["Counting pages from 0 — page numbers here start at 1, matching how PDF readers display them.","Splitting a 200-page file into 200 downloads without expecting your browser to ask permission for multiple downloads.","Extracting pages from a protected PDF — owner permissions still apply."],faq:[["Can I extract non-adjacent pages?","Yes — type them with commas, like 1,4,7-9, and they are combined into one PDF in document order."],["Does splitting reduce quality?","No. Pages are copied exactly as they are — text and images keep their original quality."]]},
 rotatepdf:{intro:"Rotate PDF fixes pages that are sideways or upside down — the classic scanned-document problem — by rotating every page, or just a page range, by 90, 180 or 270 degrees and saving a corrected copy. The content itself is untouched; only the page orientation flag changes, so quality is perfectly preserved.",steps:["Choose the PDF with the sideways pages.","Pick the rotation: 90° clockwise, 180°, or 270° clockwise (90° counter-clockwise).","Optionally enter a page range — leave it blank to rotate the whole document.","Press Rotate and download the corrected PDF."],example:"A 6-page scan where pages 2 and 3 came out sideways: rotate just pages 2-3 by 90° and the whole document reads upright — no rescanning, no printing.",use:"Use it for scanned forms and letters, phone photos converted to PDF at the wrong orientation, and mixed documents where only some pages are wrong.",mistakes:["Rotating the whole file when only two pages are wrong — use the page range box.","Guessing the direction: if text runs bottom-to-top, you need 90° the other way — try 270° instead.","Saving over your only copy before checking the result."],faq:[["Does rotating reduce quality?","No. Rotation changes only orientation metadata for each page; the underlying content is copied exactly."],["Can I rotate different pages by different amounts?","Run the tool once per group — for example pages 2-3 by 90°, then the result again for page 5 by 180° — since each pass is lossless."]]},
 jpgtopdf:{intro:"JPG to PDF converts images — JPG, PNG and WebP — into a single PDF document, one image per page. It is the quickest way to turn phone photos of receipts, forms and whiteboards into one professional file that any office, school or application portal will accept.",steps:["Select one or more images — they appear in the PDF in selection order.","Choose the page style: Fit to A4 (with margins) or Full-page image size.","Press Convert to PDF.","Download and open the PDF to check every page."],example:"Five phone photos of a signed form become one 5-page A4 PDF, each photo neatly fitted to its page — a single attachment instead of five loose images that arrive out of order.",use:"Use it for submitting photographed documents, bundling receipts for expenses, archiving whiteboard photos, and sending portfolio pages as one file.",mistakes:["Selecting images out of order — the PDF follows selection order, so choose page 1 first.","Photographing documents at an angle in poor light: the PDF preserves the photo exactly, so retake blurry pages first.","Choosing full-page size for mixed-size images when the recipient expects uniform A4 pages."],faq:[["Can I mix JPG and PNG images?","Yes — JPG, PNG and WebP can be combined in one PDF. Other formats are converted automatically where the browser supports them."],["Are my images uploaded?","No. The PDF is assembled in your browser and downloaded directly; nothing is sent to a server."]]},
@@ -3297,10 +3410,11 @@ function renderArticle(tool){
 /* ---------- View switching (multi-page behaviour) ---------- */
 var homeSections=[];
 [".hero","#tools","#how","#faq"].forEach(function(sel){var e=document.querySelector(sel);if(e)homeSections.push(e);});
-var BASE_TITLE="ToolNovo \u2013 Free Online Tools";
-var HOME_META="ToolNovo \u2013 Free Online Tools. Fast, free, and easy-to-use tools for developers, students, and everyone. No signup required. 124 free tools and calculators, each on its own page with a full step-by-step guide.";
+var BASE_TITLE="ToolNovo \u2013 Free Online Tools: 124 Calculators & More";
+var HOME_META="124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser.";
 var SLUG2ID={"word-counter":"words","password-generator":"password","qr-code-generator":"qr","case-converter":"caseconv","lorem-ipsum-generator":"lorem","age-calculator":"age","json-formatter":"json","base64-encoder":"base64","color-picker":"hexrgb","image-compressor":"image"};
-function setMetaDesc(d){var m=document.querySelector('meta[name="description"]');if(m)m.setAttribute("content",d);}
+function syncSeoMeta(d){try{var tt=document.title;var og=function(p,v){var e=document.querySelector('meta[property="'+p+'"]');if(e&&v)e.setAttribute("content",v);};var tw=function(n,v){var e=document.querySelector('meta[name="'+n+'"]');if(e&&v)e.setAttribute("content",v);};og("og:title",tt);tw("twitter:title",tt);if(d){og("og:description",d);tw("twitter:description",d);}}catch(e){}}
+function setMetaDesc(d){var m=document.querySelector('meta[name="description"]');if(m)m.setAttribute("content",d);syncSeoMeta(d);}
 function showNotFound(){hideAll();var sec=document.getElementById("page-notfound");if(sec)sec.classList.add("show");crumb.innerHTML="<a href='#/' data-home-link>Home</a><span class='sep'>\u203a</span><b>Page Not Found</b>";crumb.classList.add("show");document.title="Page Not Found | ToolNovo";setMetaDesc("The page you are looking for does not exist on ToolNovo. Browse all 124 free online tools instead.");window.scrollTo({top:0});}
 function setHash(h){try{if(location.hash!==h)history.pushState(null,"",h);}catch(e){try{location.hash=h;}catch(e2){}}}
 function hideAll(){
@@ -4155,12 +4269,12 @@ var blogViews=[blogIndexSec,blogPostSec];
 function hideBlogViews(){blogViews.forEach(function(s){s.classList.remove("show");});hideHomeExtras();}
 ["showHome","showTool","showPage","showNotFound"].forEach(function(fn){if(typeof window[fn]==="function"){var orig=window[fn];window[fn]=function(){hideBlogViews();return orig.apply(null,arguments);};}});
 function blogChrome(title,crumbHtml){if(typeof hideAll==="function")hideAll();document.title=title;var c=document.getElementById("pageCrumb");if(c){c.innerHTML=crumbHtml;c.classList.add("show");}window.scrollTo({top:0});}
-function showBlogIndex(skip){hideBlogViews();blogChrome("Blog | ToolNovo","<a href='#/' data-home-link>Home</a><span class='sep'>›</span><b>Blog</b>");blogIndexSec.classList.add("show");renderBlogFilters();renderBlogGrid();if(!skip)setHash("#/blog");}
+function showBlogIndex(skip){hideBlogViews();blogChrome("Blog | ToolNovo","<a href='#/' data-home-link>Home</a><span class='sep'>›</span><b>Blog</b>");setMetaDescSafe("ToolNovo Blog \u2014 plain-English guides on money, technology, security and the web, with the free calculators and tools behind every guide. No sign-up needed.");blogIndexSec.classList.add("show");renderBlogFilters();renderBlogGrid();if(!skip)setHash("#/blog");}
 function showBlogPost(slug,skip){var p=blogFindPost(slug);if(!p){if(typeof showNotFound==="function")showNotFound();return;}hideBlogViews();
 blogPostSec.innerHTML="<article class='article blog-article'><p class='article-meta'>By ToolNovo Team · "+blogEsc(p.date)+" · "+p.read+" min read · Category: "+blogEsc(p.cat)+"</p><h1>"+blogEsc(p.title)+"</h1>"+(p.fin?"<div class='disclaimer-box'><b>⚠ Please note</b><p>"+FIN_NOTE+"</p></div>":"")+p.body+blogToolLinks(p.tools)+blogRelatedLinks(p.related)+"<div class='btn-row' style='margin:22px 0 14px'><a class='btn secondary' href='#/blog' data-blog-home>← All blog posts</a></div></article>";
 blogChrome(p.seo,"<a href='#/' data-home-link>Home</a><span class='sep'>›</span><a href='#/blog' data-blog-home>Blog</a><span class='sep'>›</span><b>"+blogEsc(p.title)+"</b>");
 setMetaDescSafe(p.meta);blogPostSec.classList.add("show");if(!skip)setHash("#/blog/"+slug);}
-function setMetaDescSafe(d){try{var m=document.querySelector('meta[name="description"]');if(m&&d)m.setAttribute("content",d);}catch(e){}}
+function setMetaDescSafe(d){try{var m=document.querySelector('meta[name="description"]');if(m&&d)m.setAttribute("content",d);if(d&&typeof syncSeoMeta==="function")syncSeoMeta(d);}catch(e){}}
 function blogRoute(){var h=location.hash||"";var m=h.match(/^#\/blog\/(.+)$/);if(m){showBlogPost(decodeURIComponent(m[1]),true);return;}if(h==="#/blog"){showBlogIndex(true);return;}}
 window.addEventListener("hashchange",blogRoute);
 
@@ -5073,9 +5187,9 @@ PAGES.faqs={title:"Frequently Asked Questions",updated:"Quick answers about Tool
     var ws=document.getElementById("workspace");
     if(!ws||document.getElementById("panel-"+tool.id))return;
     var art=document.createElement("article"); art.className="tool-panel"; art.id="panel-"+tool.id;
-    art.innerHTML="<div class='tool-head'><span class='icon' style='font-weight:800;font-size:1.25rem'></span><div><h2></h2><p></p></div><button class='back-btn' type='button'>← All tools</button></div><div class='tool-body'><div class='tn-tool-body'></div></div>";
+    art.innerHTML="<div class='tool-head'><span class='icon' style='font-weight:800;font-size:1.25rem'></span><div><h1></h1><p></p></div><button class='back-btn' type='button'>← All tools</button></div><div class='tool-body'><div class='tn-tool-body'></div></div>";
     art.querySelector(".icon").textContent=tool.icon||tool.name.charAt(0);
-    art.querySelector("h2").textContent=tool.name;
+    art.querySelector("h1").textContent=tool.name;
     art.querySelector(".tool-head p").textContent=tool.desc;
     var body=art.querySelector(".tn-tool-body");
     if(tool.code&&String(tool.code).trim()){ TN_LAZY[tool.id]=String(tool.code); body.innerHTML="<p>"+esc(tool.desc)+"</p>"; }
