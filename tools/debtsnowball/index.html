@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" data-mp="tool">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>Debt Snowball Payoff Calculator | ToolNovo</title>
+<meta name="description" content="Debt Snowball Payoff Calculator — Pay off multiple debts smallest-first and see your debt-free date. Free on ToolNovo, no signup required, with a full step-by-step guide." />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://toolnovo.net/tools/debtsnowball/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="ToolNovo" />
+<meta property="og:title" content="Debt Snowball Payoff Calculator | ToolNovo" />
+<meta property="og:description" content="Debt Snowball Payoff Calculator — Pay off multiple debts smallest-first and see your debt-free date. Free on ToolNovo, no signup required, with a full step-by-step guide." />
+<meta property="og:url" content="https://toolnovo.net/tools/debtsnowball/" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="Debt Snowball Payoff Calculator | ToolNovo" />
+<meta name="twitter:description" content="Debt Snowball Payoff Calculator — Pay off multiple debts smallest-first and see your debt-free date. Free on ToolNovo, no signup required, with a full step-by-step guide." />
+<link rel="icon" href="data:," />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SY4T5Y6PKY"></script>
+<script>
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SY4T5Y6PKY');
+  window.addEventListener('hashchange', function(){
+    gtag('event', 'page_view', {
+      page_path: window.location.pathname + window.location.hash,
+      page_title: document.title
+    });
+  });
+
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "ToolNovo",
+  "url": "https://toolnovo.net/",
+  "description": "124 free online tools — Word Counter, Mortgage Calculator, Merge PDF, Image Compressor & more. No sign-up, no uploads; everything runs in your browser."
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "ToolNovo",
+  "url": "https://toolnovo.net/",
+  "email": "support@toolnovo.net"
+}
+</script>
+
+<link rel="stylesheet" href="/assets/style.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf-lib/1.17.1/pdf-lib.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap header-in">
+    <a class="logo" href="/">
+      <span class="logo-mark" aria-hidden="true">T</span>
+      <span>ToolNovo<small>Fast, free, no signup</small></span>
+    </a>
+    <nav class="main" aria-label="Main">
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+      <a href="/#tools">Tools</a>
+      <a href="/about/">About</a>
+      <a href="/contact/">Contact</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+<nav class="crumb show" id="pageCrumb" aria-label="Breadcrumb"><a href="/">Home</a><span class="sep">›</span><a href="/?cat=finance#tools">Money &amp; Finance</a><span class="sep">›</span><b>Debt Snowball Payoff Calculator</b></nav>
+<section class="workspace" id="workspace" aria-live="polite"><article class="tool-panel open" id="panel-debtsnowball"><div class="tool-head"><span class="icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11l9-8 9 8"></path><path d="M5 10v10h14V10"></path><path d="M10 20v-6h4v6"></path></svg></span><div><h1>Debt Snowball Payoff Calculator</h1><p>Smallest balance first — quick wins that build momentum.</p></div><a class="back-btn" href="/">← All tools</a></div><div class="tool-body"><div class="cols"><div><div class="field"><label>Currency</label><div class="seg" id="dsCurSeg"><button type="button" class="active" data-cur="USD">$ USD</button><button type="button" data-cur="GBP">£ GBP</button><button type="button" data-cur="CAD">$ CAD</button></div></div><div class="row3"><div class="field"><label>Debt 1 balance</label><input type="number" id="dsB1" value="1200" min="0" step="10"></div><div class="field"><label>Min. payment</label><input type="number" id="dsM1" value="35" min="0" step="5"></div><div class="field"><label>APR %</label><input type="number" id="dsA1" value="24.99" min="0" step="0.1"></div></div><div class="row3"><div class="field"><label>Debt 2 balance</label><input type="number" id="dsB2" value="3400" min="0" step="10"></div><div class="field"><label>Min. payment</label><input type="number" id="dsM2" value="85" min="0" step="5"></div><div class="field"><label>APR %</label><input type="number" id="dsA2" value="19.99" min="0" step="0.1"></div></div><div class="row3"><div class="field"><label>Debt 3 balance</label><input type="number" id="dsB3" value="800" min="0" step="10"></div><div class="field"><label>Min. payment</label><input type="number" id="dsM3" value="25" min="0" step="5"></div><div class="field"><label>APR %</label><input type="number" id="dsA3" value="29.99" min="0" step="0.1"></div></div><div class="field"><label>Extra money per month (on top of all minimums)</label><input type="number" id="dsExtra" value="150" min="0" step="10"></div></div><div><div class="result-box"><h3>Debt-free in</h3><div class="big-num" id="dsBig">2 yr 3 mo</div><div style="margin-top:12px" id="dsBigKv"><div class="kv total"><span>Debt-free date</span><b>February 2029</b></div><div class="kv"><span>Total interest paid</span><b>$1,311</b></div><div class="kv"><span>Monthly going to debt</span><b>$295</b></div></div><p class="note" id="dsBigNote">Snowball order: smallest balance first regardless of APR. The avalanche method (highest APR first) costs slightly less — snowball wins on motivation.</p></div></div></div></div></article></section>
+<div class="article-wrap show" id="toolArticleWrap"><article class="article"><div class="disclaimer-box"><b>⚠ Financial disclaimer</b><p>Estimates only — not financial advice. This calculator gives general educational estimates based on the numbers you enter. It is not financial, tax, mortgage or investment advice, and it does not replace advice from a licensed financial adviser, mortgage broker, lender or tax professional. Always confirm rates, fees, taxes and terms with your lender or provider before making a decision.</p></div><p class="article-meta">By the ToolNovo team · Last updated: November 2026 · Category: Money &amp; Finance</p><div class="toc"><b>On this page</b><ol><li><a href="#art-about">About this tool</a></li><li><a href="#art-how">How to use it — step by step</a></li><li><a href="#art-example">Worked example</a></li><li><a href="#art-when">When to use it</a></li><li><a href="#art-mistakes">Common mistakes to avoid</a></li><li><a href="#art-faq">Frequently asked questions</a></li></ol></div><h2 id="art-about">About the Debt Snowball Payoff Calculator</h2><p>The debt snowball clears debts from smallest balance to largest, regardless of interest rate. Each cleared debt frees its payment to roll into the next one — the snowball. It costs slightly more interest than the avalanche method, but the quick wins keep people going, and a plan you finish beats a perfect plan you quit.</p><h3 id="art-how">How to use the Debt Snowball Payoff Calculator — step by step</h3><ol><li>List up to three debts: balance, minimum payment and APR for each.</li><li>Add any extra money you can put toward debt each month.</li><li>The tool orders debts smallest-first and simulates every payment.</li><li>Read your debt-free date and total interest.</li></ol><h3 id="art-example">Worked example</h3><div class="example-box"><p>Debts of $800 (29.99% APR, $25 minimum), $1,200 (24.99%, $35) and $3,400 (19.99%, $85), plus $150 extra a month, clear in roughly two years — the $800 card disappears in about four months, and its payment joins the attack on the next debt.</p></div><h3 id="art-when">When to use it</h3><p>Use it when you have several cards and loans and need a clear order of attack and a finish line to aim at.</p><h3 id="art-mistakes">Common mistakes to avoid</h3><ul><li>Stopping minimum payments on any debt — every debt gets its minimum, always, or fees and credit damage follow.</li><li>Adding new spending to a card you are clearing.</li><li>Ignoring a 0% balance-transfer window that could pause interest while you snowball.</li></ul><h3 id="art-faq">Debt Snowball Payoff Calculator — frequently asked questions</h3><details class="faq"><summary>Snowball or avalanche — which is better?</summary><p>Avalanche (highest APR first) is mathematically cheapest. Snowball is behaviourally strongest. Pick the one you will still be following in month six.</p></details><details class="faq"><summary>What if a payment does not cover interest?</summary><p>The tool warns you — raise the extra amount, because the balance grows otherwise.</p></details><p class="muted" style="margin-top:18px">Found this tool useful? Every ToolNovo tool is free, works on phone, tablet and computer, and needs no sign-up.</p></article><div class="related"><h3>Related tools</h3><div class="related-grid"><a class="related-card" href="/tools/mortgage/"><b>Mortgage Calculator</b><span>Monthly payment, total interest and payoff date for home loans in $, £ or CAD $.</span></a><a class="related-card" href="/tools/tip/"><b>Tip Calculator &amp; Bill Splitter</b><span>Calculate the tip and split any restaurant or bar bill evenly between friends.</span></a><a class="related-card" href="/tools/salary/"><b>Salary to Hourly Calculator</b><span>Convert an annual salary to an hourly wage — or an hourly rate to a yearly salary.</span></a><a class="related-card" href="/tools/loan/"><b>Loan Calculator</b><span>Monthly payment, total interest and payoff for car, personal and student loans.</span></a></div></div></div>
+</main>
+<footer class="site">
+  <div class="wrap f-grid"><div><h4>ToolNovo</h4><p style="margin:0;max-width:34ch">Free online tools to make your life easier. No signup required. 124 tools, each on its own page with a full guide below it — everything runs in your browser.</p><p style="margin:12px 0 0"><b style="color:var(--ink)">Email:</b> <a href="mailto:support@toolnovo.net">support@toolnovo.net</a></p></div><div><h4>Tool categories</h4><div class="f-links"><a href="/?cat=finance#tools">Money &amp; Finance</a><a href="/?cat=health#tools">Health &amp; Fitness</a><a href="/?cat=math#tools">Math &amp; Dates</a><a href="/?cat=text#tools">Text &amp; Developer</a><a href="/?cat=media#tools">Image &amp; Media</a><a href="/?cat=study#tools">Study</a><a href="/?cat=fun#tools">Fun &amp; Timers</a><a href="/?cat=home#tools">Home &amp; Life</a><a href="/?cat=creator#tools">Social &amp; Creators</a><a href="/?cat=seo#tools">SEO &amp; Marketing</a><a href="/?cat=pdf#tools">PDF Tools</a></div></div><div><h4>Popular tools</h4><div class="f-links"><a href="/tools/mortgage/">Mortgage Calculator</a><a href="/tools/vat/">UK VAT Calculator</a><a href="/tools/salestax/">US Sales Tax Calculator</a><a href="/tools/bmi/">BMI Calculator</a><a href="/tools/gpa/">GPA Calculator</a><a href="/tools/unit/">Unit Converter</a><a href="/tools/password-generator/">Password Generator</a><a href="/tools/mergepdf/">Merge PDF</a><a href="/tools/summarizer/">Text Summarizer</a></div></div><div><h4>Quick Links</h4><div class="f-links"><a href="/">Home</a><a href="/blog/">Blog</a><a href="/about/">About Us</a><a href="/contact/">Contact Us</a><a href="/sitemap/">Sitemap</a><a href="/faqs/">FAQs</a></div></div><div><h4>Legal</h4><div class="f-links"><a href="/disclaimer/">Disclaimer</a><a href="/terms/">Terms of Use</a><a href="/privacy-policy/">Privacy Policy</a><a href="/dmca/">DMCA Policy</a><a href="#" id="cookieSettingsLink">Cookie Settings</a></div></div><div class="f-bottom"><span>© 2026 ToolNovo. All rights reserved.</span><span>Free online tools to make your life easier. No signup required.</span></div></div>
+</footer>
+<div class="cookie-banner show" id="cookieBanner" role="region" aria-label="Cookie consent">
+  <p><b>We value your privacy.</b> ToolNovo tools run in your browser and set no tracking cookies themselves. If advertising is shown in future, Google and other third-party vendors may use cookies to serve ads based on your prior visits to this and other websites. You can accept or decline advertising cookies below, and change your mind any time via our <a href="/privacy-policy/">Privacy Policy</a>.</p>
+  <div class="btn-row"><button class="btn small" id="cookieAccept" type="button">Accept</button><button class="btn secondary small" id="cookieDecline" type="button">Decline</button></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<div hidden aria-hidden="true" style="display:none!important"><input id="toolSearch" type="text" /><button id="heroSearchBtn"></button><section id="tools"></section><div id="toolGrid"></div><div id="noResults"></div><article id="panel-mortgage"></article><div id="mortCurrSeg"></div><input id="mPrice" type="number" value="450000" /><input id="mDown" type="number" value="90000" /><input id="mRate" type="number" value="6.5" /><select id="mTerm"><option value="30" selected="">30 years</option><option value="25">25 years</option><option value="20">20 years</option><option value="15">15 years</option><option value="10">10 years</option></select><input id="mTax" type="number" value="5400" /><input id="mIns" type="number" value="1800" /><input id="mHoa" type="number" value="0" /><button id="mCalc"></button><div id="mMonthly"></div><b id="mPI"></b><b id="mTaxM"></b><b id="mInsM"></b><b id="mHoaM"></b><b id="mLoan"></b><b id="mDownOut"></b><b id="mInterest"></b><b id="mTotal"></b><b id="mPayoff"></b><span id="mPrinPct"></span><i id="mPrinBar"></i><span id="mIntPct"></span><i id="mIntBar"></i><article id="panel-tip"></article><div id="tipCurrSeg"></div><input id="tBill" type="number" value="86.40" /><div id="tipPresets"></div><input id="tCustom" type="number" /><span id="tPeopleLabel"></span><input id="tPeople" type="range" value="2" /><div id="tPerPerson"></div><b id="tTipAmt"></b><b id="tTotal"></b><b id="tTipPP"></b><b id="tBillPP"></b><b id="tEff"></b><article id="panel-salary"></article><div id="salModeSeg"></div><div id="salCurrSeg"></div><div id="salAmtField"></div><label id="salAmtLabel"></label><input id="sAmount" type="number" value="65000" /><input id="sHours" type="number" value="40" /><input id="sWeeks" type="number" value="52" /><h3 id="salHeadlineLabel"></h3><div id="sHeadline"></div><b id="sHourly"></b><b id="sDaily"></b><b id="sWeekly"></b><b id="sBiweekly"></b><b id="sMonthly"></b><b id="sYearly"></b><article id="panel-gpa"></article><div id="gpaRows"></div><button id="gpaAdd"></button><button id="gpaCalc"></button><input id="gpaPrior" type="number" /><input id="gpaPriorCredits" type="number" /><div id="gpaResult"></div><p id="gpaVerdict"></p><b id="gpaCredits"></b><b id="gpaPoints"></b><b id="gpaCumulative"></b><i id="gpaBar"></i><article id="panel-image"></article><div id="imgDrop"></div><input id="imgFile" type="file" /><span id="imgQualityVal"></span><input id="imgQuality" type="range" value="80" /><select id="imgWidth"><option value="0">Keep original</option><option value="1920">1920</option><option value="1280">1280</option><option value="800" selected="">800</option><option value="480">480</option></select><select id="imgFormat"><option value="image/jpeg" selected="">JPEG (smallest)</option><option value="image/webp">WebP</option><option value="image/png">PNG</option></select><button id="imgCompress"></button><a id="imgDownload"></a><img id="imgOrigPreview"></img><b id="imgOrigSize"></b><img id="imgCompPreview"></img><b id="imgCompSize"></b><div id="imgSavings"></div><article id="panel-age"></article><input id="aDob" type="date" /><input id="aAt" type="date" /><button id="aCalc"></button><div id="aMain"></div><b id="aWeekday"></b><b id="aMonths"></b><b id="aWeeks"></b><b id="aDays"></b><b id="aHours"></b><b id="aNext"></b><article id="panel-words"></article><textarea id="wText"></textarea><button id="wClear"></button><button id="wCopy"></button><b id="wWords"></b><b id="wChars"></b><b id="wCharsNS"></b><b id="wSent"></b><b id="wPara"></b><b id="wLongest"></b><b id="wRead"></b><b id="wSpeak"></b><div id="wTop"></div><article id="panel-qr"></article><input id="qText" type="text" value="https://example.com" /><select id="qSize"><option value="200">200 × 200</option><option value="300" selected="">300 × 300</option><option value="500">500 × 500</option><option value="800">800 × 800</option></select><select id="qLevel"><option value="L">Low</option><option value="M" selected="">Medium</option><option value="Q">Quartile</option><option value="H">High (best for print)</option></select><button id="qGen"></button><button id="qDownload"></button><div id="qrOut"></div><article id="panel-password"></article><span id="pLenVal"></span><input id="pLen" type="range" value="16" /><input id="pUpper" type="checkbox" checked /><input id="pLower" type="checkbox" checked /><input id="pNums" type="checkbox" checked /><input id="pSyms" type="checkbox" checked /><input id="pNoAmb" type="checkbox" /><button id="pGen"></button><button id="pCopy"></button><div id="pOut"></div><i id="pBar"></i><b id="pStrength"></b><b id="pEntropy"></b><b id="pPool"></b><section id="how"></section><section id="faq"></section></div>
+<script src="/assets/app.js"></script>
+<script>
+(function(){
+var ID2SLUG={"words":"word-counter","password":"password-generator","qr":"qr-code-generator","caseconv":"case-converter","lorem":"lorem-ipsum-generator","age":"age-calculator","json":"json-formatter","base64":"base64-encoder","hexrgb":"color-picker","image":"image-compressor"};
+var PAGES={"about":"/about/","contact":"/contact/","privacy":"/privacy-policy/","terms":"/terms/","disclaimer":"/disclaimer/","dmca":"/dmca/","guides":"/guides/","sitemap":"/sitemap/","faqs":"/faqs/"};
+var BUILTIN_POSTS=["mortgage-rates-explained","refinancing-a-mortgage","credit-card-debt-snowball-vs-avalanche","credit-card-interest-explained","auto-loans-explained","car-insurance-premium-guide","student-loans-explained","emergency-fund-guide","solar-panels-costs-savings-payback","vpn-explained","web-hosting-explained","strong-password-you-can-remember","two-factor-authentication-explained","compress-images-without-losing-quality","jpg-vs-png-vs-webp","speed-up-a-slow-website","check-if-a-website-is-safe","meta-tags-explained","how-search-engines-work","adsense-approval-guide","youtube-earnings-guide","freelancing-rates-guide","how-business-loans-work","bookkeeping-basics-small-business","how-to-price-a-product","side-hustle-taxes-guide","how-to-write-an-invoice","break-even-point-explained","llc-vs-sole-trader-guide"];
+function toolUrl(x){return "/tools/"+(ID2SLUG[x]||x)+"/";}
+window.goHome=function(e){if(e&&e.preventDefault)e.preventDefault();location.href="/";return false;};
+window.closeTools=function(){location.href="/";};
+window.openTool=function(id){location.href=toolUrl(id);};
+document.addEventListener("click",function(e){
+  if(!e.target||!e.target.closest)return;
+  var back=e.target.closest(".back-btn,[data-back]");
+  if(back){e.preventDefault();location.href="/";return;}
+  var hb=e.target.closest("[data-home-btn]");
+  if(hb){e.preventDefault();location.href="/";return;}
+  var bo=e.target.closest("[data-blog-open]");
+  if(bo){var s=bo.getAttribute("data-blog-open");if(BUILTIN_POSTS.indexOf(s)>=0){e.preventDefault();e.stopPropagation();location.href="/blog/"+s+"/";}}
+},true);
+function fixLinks(){
+  document.querySelectorAll('a[href^="#/"]').forEach(function(a){
+    if(a.id==="cookieSettingsLink")return;
+    var href=a.getAttribute("href"),m;
+    if(href==="#/"){a.setAttribute("href","/");}
+    else if(href==="#/blog"){a.setAttribute("href","/blog/");}
+    else if(m=href.match(/^#\/blog\/(.+)$/)){a.setAttribute("href","/blog/"+m[1]+"/");}
+    else if(m=href.match(/^#\/tools?\/(.+)$/)){a.setAttribute("href",toolUrl(decodeURIComponent(m[1])));}
+    else if(m=href.match(/^#\/page\/(.+)$/)){a.setAttribute("href",PAGES[m[1]]||"/");}
+  });
+}
+fixLinks();
+setTimeout(fixLinks,1600);
+if(document.documentElement.getAttribute("data-mp")==="home"){
+  var cat=null;try{cat=new URLSearchParams(location.search).get("cat");}catch(e){}
+  if(cat){try{document.querySelectorAll(".chip").forEach(function(c){c.classList.toggle("active",c.getAttribute("data-cat")===cat);});window.activeCat=cat;if(typeof renderGrid==="function")renderGrid();var ts=document.getElementById("tools");if(ts)ts.scrollIntoView();}catch(e){}}
+}
+var qp=document.querySelector("#panel-qr.open");
+if(qp&&typeof window.generateQR==="function"){try{generateQR();}catch(e){}}
+})();
+</script>
+
+</body>
+</html>
