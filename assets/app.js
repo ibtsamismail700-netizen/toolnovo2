@@ -3295,7 +3295,7 @@ var sb=document.getElementById("heroSearchBtn");if(sb)sb.addEventListener("click
 })();
 /* ---------- Homepage refresh helpers ---------- */
 function refreshHomeLatest(){var sec=document.getElementById("homeLatest");if(!sec)return;var grid=sec.querySelector(".blog-grid");if(!grid)return;grid.innerHTML=blogAllPosts().slice(0,6).map(function(p){return "<button type='button' class='blog-card' data-blog-open='"+blogEsc(p.slug)+"'><span class='bmeta'><span class='tag'>"+blogEsc(p.cat)+"</span><span>"+blogEsc(p.date)+"</span><span>· "+p.read+" min read</span></span><h3>"+blogEsc(p.title)+"</h3><p>"+blogEsc(p.excerpt)+"</p><span style='font-weight:700;color:var(--brand);font-size:.9rem'>Read post →</span></button>";}).join("");}
-function refreshBlogSurfaces(){refreshHomeLatest();if(blogIndexSec.classList.contains("show"))renderBlogGrid();}
+function refreshBlogSurfaces(){refreshHomeLatest();var onBlogPage=document.documentElement.getAttribute("data-mp")==="blog";if(blogIndexSec.classList.contains("show")||onBlogPage){try{renderBlogFilters();}catch(e){}renderBlogGrid();}}
 function renderFeatured(){if(window.activeCat==="featured"&&typeof renderGrid==="function")renderGrid();}
 
 blogRoute();
