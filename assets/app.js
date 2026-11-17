@@ -3217,7 +3217,7 @@ document.addEventListener("click",function(e){
 });
 document.addEventListener("input",function(e){if(e.target&&e.target.id==="blogSearch"){blogQuery=e.target.value;renderBlogGrid();}});
 /* ---------- Nav, footer, sitemap ---------- */
-(function(){var nav=document.querySelector("nav.main");if(nav&&!nav.querySelector("[data-blog-home]")){var a=document.createElement("a");a.href="#/blog";a.textContent="Blog";a.setAttribute("data-blog-home","");nav.insertBefore(a,nav.firstChild);}
+(function(){var nav=document.querySelector("nav.main");var navHasBlog=nav&&Array.prototype.some.call(nav.querySelectorAll("a"),function(x){return x.textContent.trim()==="Blog"||(x.getAttribute("href")||"").indexOf("/blog")>=0;});if(nav&&!navHasBlog&&!nav.querySelector("[data-blog-home]")){var a=document.createElement("a");a.href="#/blog";a.textContent="Blog";a.setAttribute("data-blog-home","");nav.insertBefore(a,nav.firstChild);}
 var siteCol=null;document.querySelectorAll("footer.site .f-links").forEach(function(fl){if(fl.querySelector("[data-page-link='sitemap']"))siteCol=fl;});
 if(siteCol&&!siteCol.querySelector("[data-blog-home]")){var b1=document.createElement("a");b1.href="#/blog";b1.textContent="Blog";b1.setAttribute("data-blog-home","");siteCol.insertBefore(b1,siteCol.children[1]||null);}
 var sm=document.querySelector("#page-sitemap .page-body");if(sm){var d=document.createElement("div");d.innerHTML="<h2>Blog ("+BLOG_POSTS.length+" posts)</h2><ul>"+BLOG_POSTS.map(function(p){return "<li><a href='#/blog/"+p.slug+"' data-blog-link='"+p.slug+"'><b>"+blogEsc(p.title)+"</b></a> — "+blogEsc(p.cat)+"</li>";}).join("")+"</ul><p><a href='#/blog' data-blog-home><b>Visit the Blog →</b></a></p>";sm.appendChild(d);}})();
