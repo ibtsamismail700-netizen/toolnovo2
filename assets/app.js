@@ -2448,10 +2448,135 @@ setTimeout(tnShowCookieBanner,700);
 ;
 
 "use strict";
-/* ================= ToolNovo Blog: 32 built-in posts, index & post pages ================= */
+/* ================= ToolNovo Blog: 33 built-in posts, index & post pages ================= */
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-budgeting-apps-in-2027",title:"Top 10 Free Budgeting Apps in 2027",cat:"Finance",date:"19 November 2026",kw:"Top 10 Free Budgeting Apps in 2027",
+seo:"Top 10 Free Budgeting Apps in 2027 | ToolNovo Blog",
+meta:"The 10 best free budgeting apps in 2027: Goodbudget, EveryDollar, PocketGuard, Empower, Honeydue and more. Compare free plans and bank syncing, and pick the right app for how you spend.",
+excerpt:"You do not need to pay to budget well. Ten solid apps — Goodbudget, EveryDollar, PocketGuard, Empower and more — offer a genuinely free plan in 2027. Here is what each one is best at, a side-by-side comparison, and how to pick the right one.",
+tools:["mortgage", "loan"],related:["roth-ira-vs-401k", "emergency-fund-guide"],fin:true,
+body:`<p>A budget only works if you actually look at it. That is the problem with most budgeting advice: a spreadsheet you build once, admire for a week, then never open again. A good budgeting app fixes the boring part — it tracks the numbers, shows where the money went, and warns you before a category runs dry. The good news is you do not need to pay for that: several solid budgeting apps still offer a genuinely free plan in 2027.</p>
+
+<p>Here are the ten best and how to pick the right one. One honest note first: Mint, the most famous budgeting app of the last decade, shut down in 2024 — if you want a Mint replacement, start with numbers 1, 3 and 4.</p>
+
+<h2>1. Goodbudget</h2>
+
+<p>Goodbudget is the digital version of the envelope method: you divide your money into envelopes — groceries, rent, transport, fun — and spend only what is in each one. The free plan covers one account, two devices and up to 20 envelopes. It is manual entry, which sounds like a drawback until you realise typing in each expense is exactly what makes you notice it.</p>
+
+<h2>2. EveryDollar</h2>
+
+<p>EveryDollar is built around zero-based budgeting: every dollar of income gets a job before the month starts, so income minus planned spending equals zero. The free version is manual entry with unlimited categories and a clean layout that takes minutes to learn. Paid plans add bank syncing, but the free version is a complete budgeting system on its own.</p>
+
+<h2>3. PocketGuard</h2>
+
+<p>PocketGuard answers one question better than any other app here: how much can I safely spend right now? It connects to your accounts, subtracts bills, savings goals and spending, and shows your "In My Pocket" figure — the money genuinely free to spend. The free plan covers account syncing, bill tracking and spending categories.</p>
+
+<h2>4. Empower Personal Dashboard</h2>
+
+<p>Empower (formerly Personal Capital) is free, and it is the strongest free option if you care about the whole picture rather than just this month's spending. It pulls bank accounts, cards, loans and investments into one dashboard and tracks your net worth over time. Its budgeting tools are simpler than a dedicated app, but nothing else free shows your finances this clearly.</p>
+
+<h2>5. Honeydue</h2>
+
+<p>Honeydue is built for couples who share money. Both partners link their accounts, see shared bills and balances together, and can chat about any transaction inside the app — which ends the "did you pay the electricity bill?" conversation. The app is free, with optional paid extras, and handles joint and individual accounts side by side.</p>
+
+<h2>6. Fudget</h2>
+
+<p>Fudget is deliberately simple: a list of income, a list of expenses, and a balance. No bank syncing, no charts, no categories to configure — you type numbers in and it does the maths. The free version covers the core budgeting, and the interface is so plain there is nothing to learn. Best for a simple side budget such as a holiday.</p>
+
+<h2>7. Spendee</h2>
+
+<p>Spendee makes budgeting visual: colourful wallets, clear charts and a shared-wallet feature for splitting costs with family or friends. The free plan includes manual wallets, expense tracking and basic budgeting, with bank syncing on paid plans. It also handles multiple currencies well.</p>
+
+<h2>8. Monefy</h2>
+
+<p>Monefy is a fast expense tracker with a clean, icon-based interface: tap an icon, type the amount, done. The free version covers unlimited manual entries and categories, plus a clear chart of where the money goes. It does not sync with banks — for many people a feature, since your data stays on your device.</p>
+
+<h2>9. Rocket Money</h2>
+
+<p>Rocket Money combines budgeting with subscription tracking: it finds your recurring charges, flags the ones you forgot about, and helps you cancel them. The free tier includes budgeting, spending tracking and bill reminders, and most people find at least one forgotten charge in the subscription overview.</p>
+
+<h2>10. Zeta</h2>
+
+<p>Zeta is another strong free option for couples, with a different angle from Honeydue: it is designed around joint goals as well as joint bills. Couples can track shared spending, split bills by custom percentages, and save together towards a named goal, all in one free account. Individual accounts stay private unless you choose to share them.</p>
+
+<h2>Quick comparison: the 10 free budgeting apps at a glance</h2>
+
+<p>Use this table to narrow the list down before you download anything. "Free plan" means a tier you can use indefinitely without paying; bank syncing is often the feature held back for paid plans.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">App</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free plan</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Bank sync on free plan</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Goodbudget</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free tier, 20 envelopes</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Envelope budgeting, hard limits</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No — manual entry</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">EveryDollar</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free version, unlimited categories</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Zero-based budgeting for beginners</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">No — manual entry</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">PocketGuard</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free basic plan</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Knowing what you can safely spend</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Empower Personal Dashboard</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Full financial picture, net worth</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Yes</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Honeydue</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Couples sharing bills</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Fudget</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free core version</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Maximum simplicity</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">No — manual entry</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Spendee</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free plan, manual wallets</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Visual budgets, shared wallets</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No — manual entry</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Monefy</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free basic version</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Fast expense tracking</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">No — manual entry</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Rocket Money</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free tier</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Budgeting plus subscription clear-out</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Zeta</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Couples budgeting towards shared goals</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Yes</td></tr>
+</table>
+
+<h2>How to choose the right budgeting app</h2>
+
+<p>The best app is the one you will still open in three months, so choose for your habits, not for the feature list:</p>
+
+<ul>
+<li><b>Pick your method first.</b> Envelope budgeting, zero-based budgeting and simple tracking are different systems. Try Goodbudget for envelopes or EveryDollar for zero-based for one month each.</li>
+<li><b>Be honest about manual entry.</b> Bank syncing is convenient, but manual entry makes you notice spending. If you have quit budgeting apps before because you stopped logging, choose one with syncing, such as PocketGuard or Empower.</li>
+<li><b>Budgeting together? Choose together.</b> A couples app only works if both partners use it. Honeydue and Zeta are built for two people.</li>
+<li><b>Check the free tier first.</b> Free plans change. Confirm on the app's own pricing page that the features you need are in the free tier before you set everything up.</li>
+<li><b>Start with three categories, not thirty.</b> Begin with housing, food and one "everything else" category.</li>
+</ul>
+
+<h2>Common mistakes that break a budgeting app</h2>
+
+<ul>
+<li><b>Setting a fantasy budget.</b> If you spend $600 a month on food, budgeting $300 does not save $300 — it just guarantees a red warning in week two. Budget from last month's real spending.</li>
+<li><b>Forgetting irregular costs.</b> Car insurance, annual subscriptions and holidays wreck monthly budgets because they are not monthly. Add one category for irregular costs and fund it monthly.</li>
+<li><b>Tracking but never reviewing.</b> The app collects the data; yours is to look at it. Ten minutes a week catches a drifting category early.</li>
+<li><b>Paying before testing the free tier.</b> Every app on this list has a usable free tier. Run it for a full month first; upgrade only when a paid feature clearly saves you more than it costs.</li>
+</ul>
+
+<p>A useful starting point for your numbers is the 50/30/20 rule — needs, wants and savings in three buckets. The <a href="/tools/budgetrule/">50/30/20 Budget Rule Calculator</a> turns your own income into the three amounts in seconds, and the <a href="/tools/savings/">Savings Goal Calculator</a> shows how long a target takes at your monthly amount.</p>
+
+<h2>Frequently asked questions</h2>
+
+<h3>Are free budgeting apps really free?</h3>
+<p>Yes — every app in this list has a free tier you can use indefinitely. What varies is which features are free: manual-entry apps are usually free in full, while apps with bank syncing often keep advanced features for paid plans.</p>
+
+<h3>Is it safe to connect my bank account to a budgeting app?</h3>
+<p>Reputable apps connect through regulated aggregation services using read-only access, so the app can see transactions but cannot move money. Stick to well-known apps, use two-factor authentication, and never give an app your online banking password directly. Our <a href="/blog/two-factor-authentication-explained/">guide to two-factor authentication</a> explains how to lock the account down.</p>
+
+<h3>What is the best free budgeting app overall?</h3>
+<p>There is no single winner. Goodbudget is the best free choice for envelope budgeting, EveryDollar for zero-based budgeting, PocketGuard if you want one safe-to-spend number, and Empower if you want budgeting plus your full financial picture.</p>
+
+<h3>Do I need a budgeting app if I already use a spreadsheet?</h3>
+<p>No — a spreadsheet you actually update beats an app you ignore. An app earns its place by removing friction: automatic tracking, alerts before a category runs out, and your budget on your phone at the shop.</p>
+
+<h2>Key takeaways</h2>
+
+<ul>
+<li>Ten solid apps offer a genuinely free plan, from simple trackers such as Fudget and Monefy to full systems such as Goodbudget and EveryDollar.</li>
+<li>Choose by method and habit — envelopes, zero-based, or one safe-to-spend number — and pick couples apps only if both partners will use them.</li>
+<li>Budget from your real spending, review the numbers for ten minutes each week, and give any app a full month before deciding whether it works.</li>
+</ul>
+
+<h2>Try the free tools in this guide</h2>
+<ul>
+<li><a href="/tools/budgetrule/"><b>50/30/20 Budget Rule Calculator</b></a> — Split your take-home pay into needs, wants and savings.</li>
+<li><a href="/tools/savings/"><b>Savings Goal Calculator</b></a> — How long to reach a savings goal with monthly deposits and interest.</li>
+<li><a href="/tools/debtsnowball/"><b>Debt Snowball Calculator</b></a> — The fastest payoff order for your debts, with dates.</li>
+<li><a href="/tools/emergencyfund/"><b>Emergency Fund Calculator</b></a> — How big your emergency fund should be — and how long it will take to build.</li>
+</ul>
+
+<h2>Keep reading</h2>
+<ul>
+<li><a href="/blog/emergency-fund-guide/"><b>Emergency Fund: How Much You Really Need and How to Build It</b></a></li>
+<li><a href="/blog/credit-card-debt-snowball-vs-avalanche/"><b>Credit Card Debt: The Snowball vs Avalanche Payoff, Explained</b></a></li>
+</ul>`},
 {slug:"top-10-free-online-tools-for-freelancers-in-2027",title:"Top 10 Free Online Tools for Freelancers in 2027",cat:"Productivity",date:"17 November 2026",kw:"Top 10 Free Online Tools for Freelancers in 2027",
 seo:"Top 10 Free Online Tools for Freelancers in 2027 | ToolNovo Blog",
 meta:"Top 10 free online tools for freelancers in 2027 compared in one clean table: project management, invoicing, time tracking, design and communication — all with real free plans, no card needed to start.",
