@@ -2452,6 +2452,100 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"401k-contribution-limits-2027",title:"401(k) Contribution Limits 2027: $25,500, Plus Catch-Ups Explained",cat:"Finance",date:"19 November 2026",kw:"401(k) Contribution Limits 2027",
+seo:"401(k) Contribution Limits 2027: $25,500 + Catch-Ups | ToolNovo Blog",
+meta:"The 2027 401(k) limit is $25,500 (up from $24,500), the age-50 catch-up is $8,500 and the IRA limit stays at $7,500. All IRS figures, per-paycheck maths and what to do before year-end.",
+excerpt:"The IRS raised the 401(k) limit to $25,500 for 2027, up from $24,500 — while the IRA limit stays at $7,500. Here are all the 2027 limits at a glance, the age-50 and ages-60–63 catch-ups, and exactly what to contribute per paycheck to max it out.",
+tools:["mortgage", "loan"],related:["top-10-free-budgeting-apps-in-2027", "roth-ira-vs-401k"],fin:true,
+body:`<p>The IRS has set the 2027 retirement limits, and the headline number moved: you can put up to $25,500 into a 401(k) next year, $1,000 more than in 2026. The IRA limit, by contrast, did not move at all. If your workplace plan lets you change contributions during open enrollment, this is the week to do the maths — a small change to each paycheck now is worth far more than a lump sum later.</p>
+
+<p>Every figure in this guide comes from the IRS announcement itself: news release IR-2026-136 and Notice 2026-66, published on 12 November 2026. The limits below apply to the 2027 plan and tax year, starting 1 January 2027. They do not change what you can contribute for the rest of 2026.</p>
+
+<h2>401(k) and IRA limits at a glance: 2026 vs 2027</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Limit</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">2026</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">2027</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Change</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">401(k) employee contribution</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$24,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$25,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">+$1,000</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">401(k) catch-up, age 50+</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$8,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$8,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">+$500</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">401(k) total at age 50+</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$32,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$34,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">+$1,500</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">401(k) catch-up, ages 60–63</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$11,250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$11,750</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">+$500</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">401(k) total at ages 60–63</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$35,750</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$37,250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">+$1,500</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">IRA contribution</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$7,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$7,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No change</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">IRA catch-up, age 50+</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$1,100</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$1,100</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No change</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">IRA total at age 50+</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$8,600</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$8,600</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No change</td></tr>
+</table>
+
+<p>The $25,500 employee limit covers 401(k), 403(b), most governmental 457(b) plans and the federal Thrift Savings Plan. It is the total of your pre-tax and Roth contributions combined — you cannot put $25,500 in each. Employer matching money sits on top of this limit and does not count towards it.</p>
+
+<h2>1. The 401(k) limit: $25,500 in 2027</h2>
+
+<p>The employee deferral limit rises from $24,500 to $25,500, a $1,000 increase. In practical terms that is about $83 more per month, or about $38 more per weekly paycheck, if you spread it evenly across the year.</p>
+
+<p>Two things are worth knowing before you set the number. First, the limit follows inflation: the IRS compares consumer prices and rounds the result down to the nearest $500, which is why the limit moves in $500 steps rather than by a few dollars. Second, the new limit only applies to paychecks paid in calendar 2027 — so a change you make during open enrollment takes effect with your first January paycheck, not with a December one.</p>
+
+<h2>2. The age-50 catch-up: $8,500, for a $34,000 total</h2>
+
+<p>If you turn 50 at any point in 2027, you can add a catch-up contribution of $8,500 on top of the standard limit, up from $8,000 in 2026. That takes the total you can put in yourself to $34,000 for the year.</p>
+
+<p>Catch-up contributions are easy to miss because most plans do not turn them on automatically. If you are 50 or older and your plan offers catch-up contributions, check that the extra amount is actually set — otherwise you will stop at $25,500 without realising it.</p>
+
+<h2>3. The ages 60–63 super catch-up: $11,750, for a $37,250 total</h2>
+
+<p>Workers who turn 60, 61, 62 or 63 during 2027 get a higher catch-up of $11,750, up from $11,250 in 2026. That takes their total to $37,250 — the highest employee contribution the IRS allows in 2027.</p>
+
+<p>This is a narrow window by design: the higher amount applies only during those four ages. At 64 the catch-up drops back to the standard age-50 amount of $8,500, for a $34,000 total. If you are in this age band, 2027 is the year to use the extra room.</p>
+
+<h2>4. The IRA limit: $7,500, unchanged</h2>
+
+<p>The IRA contribution limit stays at $7,500 for 2027, the same as 2026, with the age-50 catch-up unchanged at $1,100 — so $8,600 in total at 50 or older. The IRA limit and the 401(k) limit are separate: you can contribute the full amount to both in the same year, as long as you meet the income rules for each.</p>
+
+<p>That is the part people most often get wrong. Maxing out a 401(k) does not use up your IRA room, and an IRA does not reduce what you can put in a 401(k). If you have both, the combined room for 2027 is $33,000 under 50 ($25,500 + $7,500), or $42,600 at 50 or older ($34,000 + $8,600).</p>
+
+<h2>5. What to contribute per paycheck to hit the limit</h2>
+
+<p>The easiest way to max out a 401(k) is to divide the limit by your number of paychecks and set that as your per-paycheck contribution. The table below does the maths for the standard $25,500 limit.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Pay schedule</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Paychecks a year</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Per paycheck to hit $25,500</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Weekly</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">52</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$490.38</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Every two weeks</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">26</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$980.77</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Twice a month</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">24</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$1,062.50</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Monthly</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">12</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$2,125.00</td></tr>
+</table>
+
+<p>At age 50 or older the biweekly figure for the full $34,000 is $1,307.69. One warning: if you front-load contributions and hit the limit early in the year, some employers stop matching for the remaining paychecks — a problem known as the true-up gap. If your employer does not true up the match at year-end, spreading contributions evenly across all paychecks is the safer way to collect the full match.</p>
+
+<h2>6. What to do before the year ends</h2>
+
+<p>First, grab the full employer match before anything else — it is the only guaranteed return on offer, and leaving part of it behind is the most expensive mistake in retirement saving. Second, if you can afford the extra $1,000 of 2027 room, raise your contribution during open enrollment rather than waiting for January; most plans take a pay cycle or two to process a change. Third, check whether your plan offers catch-up contributions and whether yours are switched on. Fourth, if you are 60 to 63 in 2027, use the $11,750 catch-up while the window is open — it closes at 64.</p>
+
+<p>Finally, remember that the 2027 limits do not change your 2026 contributions. If you have room left in 2026, you still have until 31 December to use the 2026 limit of $24,500, and until the tax filing deadline for the 2026 IRA limit of $7,500.</p>
+
+<h2>Key takeaways</h2>
+
+<ul>
+<li>The 2027 401(k) limit is $25,500, up $1,000 from $24,500 in 2026 (IRS IR-2026-136, 12 November 2026).</li>
+<li>At 50 or older you can add $8,500, for $34,000 in total; at ages 60–63 the catch-up is $11,750, for $37,250 in total.</li>
+<li>The IRA limit stays at $7,500, plus a $1,100 catch-up at 50 or older — and IRA room is separate from 401(k) room.</li>
+<li>To max out a 401(k) on biweekly pay, contribute $980.77 per paycheck; spread it evenly so you do not lose employer matching.</li>
+<li>Make the change during open enrollment — the new limits apply to paychecks paid from 1 January 2027.</li>
+</ul>
+
+<p><i>This article is general information only, not financial or tax advice. Contribution limits come from IRS news release IR-2026-136 and Notice 2026-66 (12 November 2026). Your plan may have its own rules, and income limits apply to some IRA and Roth contributions — check your plan documents or a qualified adviser before changing contributions.</i></p>
+
+<h2>Try the free tools in this guide</h2>
+<ul>
+<li><a href="/tools/retirement/"><b>Retirement Calculator</b></a> — How much you need to save, and whether you are on track.</li>
+<li><a href="/tools/compound/"><b>Compound Interest Calculator</b></a> — What regular contributions become over 10, 20 or 30 years.</li>
+<li><a href="/tools/savings/"><b>Savings Goal Calculator</b></a> — How long to reach a savings goal with monthly deposits and interest.</li>
+<li><a href="/tools/budgetrule/"><b>50/30/20 Budget Rule Calculator</b></a> — Split your take-home pay into needs, wants and savings.</li>
+</ul>
+
+<h2>Keep reading</h2>
+<ul>
+<li><a href="/blog/roth-ira-vs-401k/"><b>Roth IRA vs 401(k): Which One Should You Choose?</b></a></li>
+<li><a href="/blog/emergency-fund-guide/"><b>Emergency Fund: How Much You Really Need and How to Build It</b></a></li>
+</ul>`},
 {slug:"top-10-free-budgeting-apps-in-2027",title:"Top 10 Free Budgeting Apps in 2027",cat:"Finance",date:"19 November 2026",kw:"Top 10 Free Budgeting Apps in 2027",
 seo:"Top 10 Free Budgeting Apps in 2027 | ToolNovo Blog",
 meta:"The 10 best free budgeting apps in 2027: Goodbudget, EveryDollar, PocketGuard, Empower, Honeydue and more. Compare free plans and bank syncing, and pick the right app for how you spend.",
