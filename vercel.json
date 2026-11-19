@@ -79,6 +79,11 @@
       "source": "/2026/:path*",
       "destination": "/",
       "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/privacy-policy",
+      "permanent": true
     }
   ]
 }
