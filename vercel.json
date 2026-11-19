@@ -17,37 +17,62 @@
     },
     {
       "source": "/about-us",
-      "destination": "/",
+      "destination": "/about/",
       "permanent": true
     },
     {
       "source": "/about-us/",
-      "destination": "/",
+      "destination": "/about/",
       "permanent": true
     },
     {
       "source": "/contact-us",
-      "destination": "/",
+      "destination": "/contact/",
       "permanent": true
     },
     {
       "source": "/contact-us/",
-      "destination": "/",
+      "destination": "/contact/",
       "permanent": true
     },
     {
       "source": "/terms-conditions",
-      "destination": "/",
+      "destination": "/terms/",
       "permanent": true
     },
     {
       "source": "/terms-conditions/",
+      "destination": "/terms/",
+      "permanent": true
+    },
+    {
+      "source": "/tools",
       "destination": "/",
       "permanent": true
     },
     {
       "source": "/tools/",
       "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/category/uncategorized",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/category/uncategorized/",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/05/best-free-ai-tools-for-students-in-2026-actually-worth-using",
+      "destination": "/blog/",
+      "permanent": true
+    },
+    {
+      "source": "/2026/07/05/best-free-ai-tools-for-students-in-2026-actually-worth-using/",
+      "destination": "/blog/",
       "permanent": true
     },
     {
