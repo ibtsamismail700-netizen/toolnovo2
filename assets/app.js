@@ -2452,6 +2452,102 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-accounting-software-for-small-business-2027",title:"Top 10 Free Accounting Software for Small Business in 2027",cat:"Finance",date:"20 November 2026",kw:"Top 10 Free Accounting Software for Small Business in 2027",
+seo:"Top 10 Free Accounting Software for Small Business in 2027 | ToolNovo Blog",
+meta:"The 10 best genuinely free accounting software options for small business in 2027 — Wave, Zoho Books, Akaunting, GnuCash and more — compared by free plan, best use and limits, plus the mistakes to avoid.",
+excerpt:"Good accounting software does not have to cost a monthly fee. These 10 genuinely free options cover invoicing, expenses, reports and tax time for small businesses — compared side by side, with each free plan's limits spelled out.",
+tools:["invoice", "breakeven"],related:["401k-contribution-limits-2027", "top-10-free-budgeting-apps-in-2027"],fin:true,
+body:`<p><i>This article is general information only, not financial or tax advice. Free plans, limits and features change, so check each provider's current pricing page before you decide. If your business has complex tax or payroll needs, talk to a qualified accountant.</i></p>
+
+<p>Good bookkeeping is the difference between a small business that knows where it stands and one that finds out at tax time. Yet many owners put off proper accounting software because the big names charge $20, $30 or more every month — before you have even sent your first invoice.</p>
+
+<p>The good news is that genuinely free accounting software exists, and some of it is very good. The ten tools below all have a real free plan — not a 14-day trial that quietly turns into a bill. They cover invoicing, expenses, bank reconciliation and tax-time reports. Here they are, compared side by side, with each plan's limits spelled out.</p>
+
+<h2>Quick Comparison Table</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Tool</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free plan includes</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Main limit</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Wave</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">All-round small business</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited invoicing, accounting, receipts</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Payments and payroll are paid add-ons</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Zoho Books</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Growing small businesses</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Invoicing, expenses, 1 user plus accountant</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Revenue cap on the free plan</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Akaunting</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Owners who want control</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Full cloud accounting, apps</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Self-hosting needs some setup</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">GnuCash</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Double-entry purists</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Full double-entry, reports, no limits</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Desktop only, dated interface</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Manager.io</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Offline desktop users</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Full accounting, inventory, reports</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No cloud sync on the free desktop edition</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">ZipBooks</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Simple invoicing and books</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Invoicing, basic reports, 1 user</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Advanced reports are paid</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Odoo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Businesses that may scale</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">One full app free, including Accounting</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Extra apps cost extra</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Brightbook</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Freelancers and micro-businesses</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Invoicing, expenses, clients</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Fewer reports than rivals</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Invoice Ninja</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Invoicing-first businesses</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">20 clients, unlimited invoices</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Accounting features are basic</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Google Sheets / Excel</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">The true $0 DIY route</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Total control, free templates</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">No automation; manual work</td></tr>
+</table>
+
+<h2>1. Wave — The Best Free All-Rounder</h2>
+
+<p>Wave has been the default answer to "free accounting software" for years: its accounting and invoicing are genuinely free, with no time limit and no cap on invoices or transactions. Send professional invoices, track income and expenses, scan receipts and run profit-and-loss reports. Wave earns from optional add-ons — card payments and payroll — so if you only need the books, you may never pay. Larger teams will outgrow it, but for one to five people it is the free plan to beat.</p>
+
+<h2>2. Zoho Books — Free, With Room to Grow</h2>
+
+<p>Zoho Books offers a free plan for businesses with annual revenue under $50,000, and one of the most complete free plans here: invoicing, expenses, bank reconciliation, a client portal, and one user plus your accountant. If your business grows past the free plan's limits, the paid plans are among the cheapest in the industry, so migration later is painless. The limits to know: one user only, and the revenue cap makes this a starter plan, not a forever plan.</p>
+
+<h2>3. Akaunting — Free Open-Source Accounting</h2>
+
+<p>Akaunting is free, open-source accounting software you can run in the cloud or on your own server. The core covers invoicing, expenses, bills, banking and reports, with optional apps for extras such as inventory. There is no vendor lock-in and no surprise price rise: your data stays yours. The catch is that the free cloud plan is basic and self-hosting takes a little technical confidence.</p>
+
+<h2>4. GnuCash — The Free Desktop Classic</h2>
+
+<p>GnuCash is a free, open-source desktop program built on proper double-entry bookkeeping — the same method accountants use. It handles multiple currencies, scheduled transactions and investment accounts, with no limits at all: no user caps, no invoice caps, no fees, ever. It is powerful but unpolished: the interface looks dated, setup takes longer, and there is no mobile app or cloud sync.</p>
+
+<h2>5. Manager.io — Free Desktop Accounting With Inventory</h2>
+
+<p>Manager.io gives away a full desktop edition of its accounting software for free, including inventory, payroll features and custom reports. It runs on Windows, Mac and Linux, works offline, and your data lives on your own computer. What you give up is cloud access and multi-user collaboration, which the paid editions add. If you work from one computer, this is an excellent free choice.</p>
+
+<h2>6. ZipBooks — Simple Books for Very Small Businesses</h2>
+
+<p>ZipBooks keeps things deliberately simple: its free Starter plan covers invoicing, expense tracking, basic reports and one user, with a clean dashboard showing cash flow at a glance. It is designed for businesses that find traditional accounting software intimidating, and its invoicing is genuinely good. The free plan's reports are basic, and time tracking, automated bank reconciliation and multiple users sit behind paid plans.</p>
+
+<h2>7. Odoo — One Full App, Free Forever</h2>
+
+<p>Odoo's unusual offer is "one app free, forever" — and Accounting can be that app. Choose it and you get a full accounting module: invoicing, bills, bank reconciliation, reporting and multi-currency support. Later, CRM, inventory or a website can be added in the same system. The limit is exactly what it says — one app; add a second and you move to paid pricing.</p>
+
+<h2>8. Brightbook — Free Accounting for Freelancers</h2>
+
+<p>Brightbook is a small, focused online accounting tool built for freelancers and micro-businesses, and it is completely free: invoicing, expenses, clients and basic reports, with no paid tier waiting to catch you. It does the handful of jobs a tiny business needs and does not drown you in features you will never use. The trade-off is scope: no payroll, no inventory and fewer reports than Wave or Zoho Books.</p>
+
+<h2>9. Invoice Ninja — Free Invoicing With Bookkeeping Basics</h2>
+
+<p>Invoice Ninja's free plan covers up to 20 clients with unlimited invoices and quotes, plus expenses and basic reports — enough for many small service businesses. It supports online payments, recurring invoices and a client portal. The accounting side is lighter than Wave or Zoho Books. You can also draft a single invoice in seconds with ToolNovo's <a href="#/tool/invoice" data-tool-link="invoice">free invoice generator</a>.</p>
+
+<h2>10. Google Sheets or Excel — The $0 DIY Option</h2>
+
+<p>Before paying for anything, remember the oldest free accounting system of all: a spreadsheet. Google Sheets and Excel are free, with good free bookkeeping templates for income, expenses and profit and loss. For a side business with a few dozen transactions a month, a simple template is genuinely enough. The cost is your time: nothing is automated and mistakes are easy to make — so move to a tool above when the manual work eats your evenings.</p>
+
+<h2>Common Mistakes When Choosing Free Accounting Software</h2>
+
+<p><strong>Mistaking a free trial for a free plan.</strong> "Free" on a homepage often means 14 or 30 days, after which the billing starts. Before you enter a month of real data, confirm the plan is free forever and find its limits on the pricing page.</p>
+
+<p><strong>Ignoring the export option.</strong> Your accounts are your business history. Before committing, check you can export everything — transactions, clients and invoices — as a CSV file. If you cannot leave easily, the tool owns your data.</p>
+
+<p><strong>Choosing on features, not on your actual work.</strong> A freelancer does not need inventory management; a shop does. List the three jobs you do every week and pick the tool that does those well. If you are still setting prices, our <a href="#/tool/breakeven" data-tool-link="breakeven">free break-even calculator</a> shows the sales you need to cover your costs.</p>
+
+<p><strong>Forgetting tax time.</strong> The point of accounting software is the reports it produces when the tax year ends. Check that the free plan includes at least a profit and loss report and a balance sheet — if those are paid features, the "free" plan will cost you exactly when it matters.</p>
+
+<p><strong>Not checking the limits.</strong> User caps, client caps, invoice caps and revenue caps are where free plans bite. A 20-client cap is fine at five clients and a problem at twenty-one. Read the limits before you invest your time, not after.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Is free accounting software really free, or is there a catch?</h3>
+<p>Genuinely free plans exist — every tool on this list has one. Vendors earn from optional extras: payment processing, payroll, extra users or advanced reports. The catch, where there is one, is a limit: clients, users, revenue or features. Read the pricing page, not just the homepage.</p>
+
+<h3>Can free accounting software handle my tax return?</h3>
+<p>It produces the reports your return is built from — profit and loss, expenses by category, sales tax collected — but it does not file the return for you. Keep clean records all year, and check anything you are unsure about with a qualified accountant.</p>
+
+<h3>What happens to my data if I switch tools later?</h3>
+<p>Most tools let you export transactions, clients and invoices as CSV files, which another tool can usually import. Export a backup regularly, and test the export before you need it.</p>
+
+<h3>Do I still need an accountant if I use accounting software?</h3>
+<p>Software records what happened; an accountant advises what to do about it. A small, simple business can often manage alone, but get professional advice before big decisions — registering, hiring, taking a loan or anything involving tax law.</p>
+
+<h2>Key Takeaway</h2>
+
+<p>If your business is small, start with <strong>Wave</strong> for all-round free accounting, <strong>Zoho Books</strong> if you expect to grow, or <strong>GnuCash</strong> if you want full control with no limits. The right choice is the one whose free plan covers your real work — invoicing, expenses and the reports tax time needs — without a limit you will hit in three months. Pick one, enter a month of real transactions, then decide whether you need to pay for anything.</p>`},
 {slug:"401k-contribution-limits-2027",title:"401(k) Contribution Limits 2027: $25,500, Plus Catch-Ups Explained",cat:"Finance",date:"19 November 2026",kw:"401(k) Contribution Limits 2027",
 seo:"401(k) Contribution Limits 2027: $25,500 + Catch-Ups | ToolNovo Blog",
 meta:"The 2027 401(k) limit is $25,500 (up from $24,500), the age-50 catch-up is $8,500 and the IRA limit stays at $7,500. All IRS figures, per-paycheck maths and what to do before year-end.",
