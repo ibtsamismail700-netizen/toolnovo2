@@ -2452,6 +2452,129 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-crm-software-for-small-business-2027",title:"Top 10 Free CRM Software for Small Business in 2027",cat:"Productivity",date:"21 November 2026",kw:"Top 10 Free CRM Software for Small Business in 2027",
+seo:"Top 10 Free CRM Software for Small Business in 2027 | ToolNovo Blog",
+meta:"Compare the 10 best free CRM tools for small business in 2027 — free users, contact limits and paid prices for HubSpot, Zoho CRM, Bitrix24, EngageBay and more.",
+excerpt:"The best free CRMs for small business in 2027 — HubSpot, Zoho CRM, Bitrix24 and seven more compared on free users, contact limits and paid prices, so you can pick one without paying a cent to start.",
+tools:[],related:["top-10-free-online-tools-for-freelancers-in-2027", "freelancing-rates-guide"],fin:true,
+body:`<p>A customer relationship management (CRM) tool keeps every customer, lead and conversation in one place — who asked for a quote, who paid, who needs a follow-up, and what was promised. Without one, that information lives in inboxes and notebooks, and deals quietly slip through the cracks.</p>
+
+<p>The good news: you do not need a budget to start. In 2027 the biggest CRM vendors all offer a genuinely free plan — free forever, not a 14-day trial — and several are good enough to run a real small business on. Every free plan has a different limit, though: some cap users, some cap contacts, and some hold back automation. This guide compares ten of them side by side, so you can pick the one whose free plan fits your team today and whose paid plan you can afford when you outgrow it.</p>
+
+<h2>The 10 best free CRMs at a glance</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">CRM</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free users</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free contacts</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Paid from</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">HubSpot CRM</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$20/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Best overall</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Zoho CRM</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">3</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">5,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$14/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Small teams</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Bitrix24</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$49/mo (5 users)</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">All-in-one workspace</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">EngageBay</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">15</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">~$13/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Marketing + CRM</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Agile CRM</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">10</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$8.99/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Larger free teams</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Vtiger</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">10</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">3,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$12/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Most free records</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Capsule</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">~$18/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Simple contact tracking</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Bigin by Zoho</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$7/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Solo users</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Attio</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">3</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">50,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$29/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Modern startups</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Streak</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$15/user/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Businesses that live in Gmail</td></tr>
+</table>
+
+<p>Free-plan limits change often — always check the pricing page before you commit. Prices are starting prices, usually billed annually.</p>
+
+<h2>1. HubSpot CRM — best overall</h2>
+
+<p>HubSpot's free CRM is the one most small businesses start with: polished, easy to learn, and genuinely free forever. Two users share a contact database, one deal pipeline, email tracking, meeting links, live chat, web forms and basic email marketing (up to 2,000 sends a month).</p>
+
+<p>The limits are real: one pipeline, ten custom properties, HubSpot branding on outbound emails and chat, and no automation — that starts at $20 per seat per month. Pick HubSpot for the smoothest upgrade path here: it grows into a full sales and marketing platform without a painful migration.</p>
+
+<h2>2. Zoho CRM — best for small teams</h2>
+
+<p>Zoho CRM's free edition supports up to three users — more than most big-name free plans — with 5,000 records, leads, contacts, deals, tasks, basic workflow rules and the mobile apps, plus a little automation, which most free plans do not.</p>
+
+<p>It is the obvious pick if your business already uses Zoho Books, Mail or Campaigns, because the suite shares the same customer data. Trade-offs: tight storage, limited exports, no AI on the free plan. Paid plans start at $14 per user per month.</p>
+
+<h2>3. Bitrix24 — best all-in-one workspace</h2>
+
+<p>Bitrix24 is more than a CRM: alongside contacts, deals and a pipeline, the free plan includes tasks, team chat, video calls, a document drive and a website builder. Unlimited users and no contact cap make it the only genuinely free option for a team of eight or ten.</p>
+
+<p>The catches: 5 GB of shared storage that attachments eat quickly, one pipeline, no automation rules, and a busy interface. Warning: Bitrix24 deletes a free account after 50 days of inactivity. Paid plans start at $49 per month for five users, billed per organisation, not per seat.</p>
+
+<h2>4. EngageBay — best for marketing plus CRM</h2>
+
+<p>EngageBay bundles a CRM with email marketing, live chat and a helpdesk, and its free plan covers 15 users — the most generous seat allowance here after Bitrix24 — with 250 contacts, forms and basic marketing automation in one login.</p>
+
+<p>The 250-contact cap is the squeeze: a growing mailing list will hit it fast. But for a small team wanting marketing and sales in one tool without two subscriptions, it is a strong start. Paid plans start at about $13 per user per month.</p>
+
+<h2>5. Agile CRM — best for larger free teams</h2>
+
+<p>Agile CRM's free plan covers 10 users and 1,000 contacts, with a pipeline, email tracking, scheduling and some basic automation — unmatched at that team size for free.</p>
+
+<p>The interface looks dated and reporting is basic, but if seats are your constraint, Agile CRM stretches furthest for free. Paid plans start at $8.99 per user per month, among the cheapest here.</p>
+
+<h2>6. Vtiger — most free records</h2>
+
+<p>Vtiger's free plan gives 10 users and 3,000 records, with a pipeline, email, support tickets and basic inventory — useful if you sell physical products and want quotes and invoices beside your customer records.</p>
+
+<p>Less well known than HubSpot or Zoho, so tutorials and integrations are fewer — but the free allowance is generous and paid plans start at $12 per user per month.</p>
+
+<h2>7. Capsule — best for simple contact tracking</h2>
+
+<p>Capsule is the simplest CRM on this list, and that is the point: two users and 250 contacts free, with tasks, a pipeline and Gmail and Outlook integration. There is almost nothing to learn — contacts, notes, tasks and deals, in a clean layout.</p>
+
+<p>It is the right choice if your main problem is remembering who said what and when to follow up; businesses needing automation or deep reporting will outgrow it quickly. Paid plans start at about $18 per user per month.</p>
+
+<h2>8. Bigin by Zoho — best for solo users</h2>
+
+<p>Bigin is Zoho's CRM for very small businesses: one user, 500 records and simple visual pipelines on the free plan, with email, a mobile app and basic automation — a pipeline without the complexity of a full CRM.</p>
+
+<p>The paid step is the cheapest here at $7 per user per month, and you can move to full Zoho CRM later with your data intact. Avoid it only if two or more people need access — the free plan is strictly single-user.</p>
+
+<h2>9. Attio — best for modern startups</h2>
+
+<p>Attio is the newest-feeling CRM here: a clean, fast interface with automatic data enrichment, custom objects and deep Gmail and Outlook sync. The free plan covers three users and 50,000 records — by far the highest allowance on this list.</p>
+
+<p>The catch is the paid jump: plans start at $29 per user per month, the highest here, with reporting and automation behind it. Choose Attio if you value a modern interface and a huge free record allowance and can pay more later.</p>
+
+<h2>10. Streak — best if you live in Gmail</h2>
+
+<p>Streak is different from every other CRM here: it lives inside Gmail. Pipelines appear as columns in your inbox, so deals, hiring or support tickets are managed without opening another app. The free personal plan includes pipeline tracking, contact details and basic mail merge.</p>
+
+<p>There is nothing to learn and nothing to switch to — which is why teams that run their business from Gmail love it. The trade-off is obvious: if your business does not run on Gmail, Streak makes no sense. Paid plans start at $15 per user per month.</p>
+
+<h2>Common mistakes when choosing a free CRM</h2>
+
+<p>First, do not choose on the free plan alone: check the paid price you will face when you outgrow it — a plan that jumps to $29 per user per month hurts more than one that starts at $9. Second, clean your contact list before importing it: duplicates and outdated contacts waste your free allowance and make every report unreliable. Third, make sure your team actually uses it — a CRM only works if every conversation and deal is logged, so pick the tool your team will open every day. Fourth, check data export before you commit: some free plans limit how often you can export your own data. Finally, do not pay for features you will never use: a solo freelancer does not need enterprise AI and forecasting.</p>
+
+<h2>Frequently asked questions</h2>
+
+<p><b>Is a free CRM really free forever?</b> Yes, for every tool in this list: the free plan has no time limit and asks for no credit card. What is limited is seats, contacts or features — not the calendar.</p>
+
+<p><b>Which free CRM is best for a team of five?</b> Bitrix24 (unlimited free users) or Agile CRM (10 free users). HubSpot and Zoho cap free plans at two and three users, so a team of five would need to pay.</p>
+
+<p><b>Can I move my data to a paid plan later?</b> Yes. Every CRM here lets you upgrade in place and keep your contacts, deals and history. Moving to a different vendor is possible by export — but check the free plan's export limits first.</p>
+
+<h2>Key takeaways</h2>
+
+<ul>
+<li>HubSpot is the best free CRM for most small businesses; Zoho CRM is the best for a team of three; Bitrix24 is the only free option for a larger team with no budget.</li>
+<li>Check the paid price before you commit — the first paid step ranges from $7 to $29 per user per month.</li>
+<li>Clean your contacts before importing, get your team to log everything, and confirm you can export your data.</li>
+</ul>
+
+<p><i>This article is general information only, not professional advice. Free-plan limits and prices change often — check the vendor's pricing page before you sign up.</i></p>
+
+<h2>Try the free tools in this guide</h2>
+<ul>
+<li><a href="/tools/freelancerate/"><b>Freelance Rate Calculator</b></a> — Work out the hourly rate your business needs.</li>
+<li><a href="/tools/invoice/"><b>Invoice Generator</b></a> — Create a professional invoice for a client in seconds.</li>
+<li><a href="/tools/roi/"><b>ROI Calculator</b></a> — Check whether a paid CRM plan earns back its monthly cost.</li>
+<li><a href="/tools/subscriptions/"><b>Subscription Tracker</b></a> — Add up what your software subscriptions really cost each month.</li>
+</ul>
+
+<h2>Keep reading</h2>
+<ul>
+<li><a href="/blog/top-10-free-accounting-software-for-small-business-2027/"><b>Top 10 Free Accounting Software for Small Business in 2027</b></a></li>
+<li><a href="/blog/freelancing-rates-guide/"><b>Freelancing Rates: How to Price Your Work Without Guessing</b></a></li>
+<li><a href="/blog/bookkeeping-basics-small-business/"><b>Bookkeeping Basics for Small Business Owners</b></a></li>
+</ul>`},
 {slug:"top-10-free-accounting-software-for-small-business-2027",title:"Top 10 Free Accounting Software for Small Business in 2027",cat:"Finance",date:"20 November 2026",kw:"Top 10 Free Accounting Software for Small Business in 2027",
 seo:"Top 10 Free Accounting Software for Small Business in 2027 | ToolNovo Blog",
 meta:"The 10 best genuinely free accounting software options for small business in 2027 — Wave, Zoho Books, Akaunting, GnuCash and more — compared by free plan, best use and limits, plus the mistakes to avoid.",
