@@ -2452,6 +2452,129 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-email-marketing-tools-for-small-business-2027",title:"Top 10 Free Email Marketing Tools for Small Business in 2027",cat:"Productivity",date:"23 November 2026",kw:"Top 10 Free Email Marketing Tools for Small Business in 2027",
+seo:"Top 10 Free Email Marketing Tools for Small Business in 2027 | ToolNovo Blog",
+meta:"Compare the 10 best free email marketing tools for small business in 2027 — free subscribers, monthly email limits and paid prices for Sender, Brevo, MailerLite, Mailchimp and more.",
+excerpt:"The best free email marketing tools for small business in 2027 — Sender, EmailOctopus, Brevo and seven more compared on free subscribers, monthly sends and paid prices, so you can start emailing customers without paying a cent.",
+tools:[],related:["top-10-free-project-management-tools-for-small-business-2027", "top-10-free-crm-software-for-small-business-2027"],fin:true,
+body:`<p>Email is still the highest-return marketing channel a small business owns: no algorithm decides who sees your message, and every subscriber is a customer you can reach again. The problem is the price — the big platforms charge by list size, so your costs grow exactly when your marketing starts working.</p>
+
+<p>The good news: in 2027 almost every major email marketing platform offers a genuinely free plan — free forever, not a 14-day trial — and several are good enough to run a real small business on. But free plans cap different things: some limit subscribers, some limit sends, and a few leave out automation. This guide compares ten of them side by side.</p>
+
+<h2>The 10 best free email marketing tools at a glance</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Tool</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free subscribers</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free emails / month</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Automation on free</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Paid from</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Sender</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">15,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$9/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Best overall free plan</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">EmailOctopus</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">10,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes, 3 automations</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$9/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Simple newsletters</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Brevo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">~9,000 (300/day)</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Limited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$9/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Large list, rare sends</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Zoho Campaigns</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">6,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$3/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Cheapest paid step</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Mailjet</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">6,000 (200/day)</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$9/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Marketing + transactional email</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">MailerLite</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes, limited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$12/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Clean editor, beginners</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Mailchimp</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">250</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$13/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Most popular, big templates</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Kit</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">10,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited broadcasts</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">No</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$25/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Creators and newsletters</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">beehiiv</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">2,500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Unlimited sends</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Limited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$49/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Newsletter growth + earning</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">AWeber</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">500</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">3,000</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Yes, limited</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">$15/mo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Small business newsletters</td></tr>
+</table>
+
+<p>Free-plan limits change often, so check the pricing page before you commit. Prices are starting prices, usually billed annually. Two free plans here shrank in 2025–2026: MailerLite (1,000 to 250 subscribers) and Mailchimp (500 to 250 contacts).</p>
+
+<h2>1. Sender — best overall free plan</h2>
+
+<p>Sender's free plan is the most generous on this list: 2,500 subscribers and 15,000 emails a month, with automation, landing pages, signup forms and transactional email included. No other free plan here sends that much, to that many people, with automation switched on.</p>
+
+<p>The catch is Sender branding at the bottom of every free email, and no SMS or A/B testing until you pay. Paid plans start at $9 a month for 500 subscribers; Standard removes branding and adds A/B testing and webhooks.</p>
+
+<h2>2. EmailOctopus — simple newsletters, big free list</h2>
+
+<p>EmailOctopus keeps things deliberately simple: campaigns, forms and a landing page, with no feature maze to learn. The free Starter plan covers 2,500 subscribers and 10,000 emails a month, plus three automations — enough for a welcome sequence.</p>
+
+<p>The catch is the simplicity: reporting only goes back 30 days on the free plan, and there is just one landing page and one form. Paid plans start at $9 a month billed yearly ($10 monthly) for up to 500 subscribers.</p>
+
+<h2>3. Brevo — large lists, pay by sends</h2>
+
+<p>Brevo prices by emails sent, not by contacts stored — the best pick if your list is large but you email rarely. The free plan holds unlimited contacts (up to 100,000 stored) and sends 300 emails a day, about 9,000 a month.</p>
+
+<p>The catch is the daily cap: a 3,000-person list takes ten days to email, and every free email carries Brevo branding. Paid plans start at $9 a month for 5,000 emails; automation starts at $18 a month.</p>
+
+<h2>4. Zoho Campaigns — cheapest paid step</h2>
+
+<p>Zoho Campaigns is the budget pick: the free plan covers 2,000 contacts and 6,000 emails a month, and — unusually — five users, so a small team can share one account. It is the obvious choice if you already use Zoho Books, Mail or CRM.</p>
+
+<p>The catch is that automation is not included on the free plan, and the templates feel plainer than Mailchimp or MailerLite. Paid plans start at $3 a month billed yearly ($4 monthly) for 500 contacts — the cheapest first step on this list.</p>
+
+<h2>5. Mailjet — marketing and transactional email together</h2>
+
+<p>Mailjet is the developer-friendly pick: the same account sends your marketing campaigns and your website's transactional emails — order confirmations, password resets — through an API and SMTP relay. Free covers 1,000 contacts and 6,000 emails a month (200 a day).</p>
+
+<p>The catch is the daily cap and the lack of automation on the free plan, and the editor is more functional than beautiful. Paid plans start at $9 a month for 8,000 emails and 2,000 contacts, with no daily limit.</p>
+
+<h2>6. MailerLite — clean editor, smaller free plan now</h2>
+
+<p>MailerLite has the cleanest editor on this list: a drag-and-drop builder anyone can learn in minutes, with landing pages and pop-ups included. The catch is that its free plan shrank in June 2026 — from 1,000 subscribers and 12,000 emails a month to 250 subscribers and 2,500.</p>
+
+<p>Even at 250 subscribers it is still a proper free plan, with MailerLite branding in the footer. Paid plans start at about $12 a month.</p>
+
+<h2>7. Mailchimp — most popular, tightest free plan</h2>
+
+<p>Mailchimp is the name everyone knows, and its free plan still works for a brand-new list: basic campaigns, signup forms, landing pages and reports, with the biggest template library here. But its free plan shrank too — it now covers 250 contacts and 500 emails a month, with no automation.</p>
+
+<p>The catch is the maths: 500 emails a month means two sends to a full 250-person list. Paid plans start at $13 a month for 500 contacts on the Essentials plan, which restores automation and A/B testing.</p>
+
+<h2>8. Kit — creators and newsletters</h2>
+
+<p>Kit (formerly ConvertKit) is built for creators, not shops: newsletters, paid subscriptions and simple landing pages. The free plan is remarkable in one way — up to 10,000 subscribers with unlimited broadcasts — but limited in another: no automations at all.</p>
+
+<p>The catch is the paid jump: the Creator plan, which unlocks automation, starts at $25 a month for 1,000 subscribers. Kit suits a newsletter you plan to monetise, not shop automation on a budget.</p>
+
+<h2>9. beehiiv — newsletter growth and earning</h2>
+
+<p>beehiiv is the newsletter-first platform: a free Launch plan for up to 2,500 subscribers with unlimited sends, a built-in website and an ad network that lets you earn from your own newsletter. It is the only tool here that pays you back.</p>
+
+<p>The catch is the paid price: the Scale plan starts at $49 a month (billed yearly), and you need it for automations and removing beehiiv branding. Pick beehiiv for a growing newsletter, not a shop's promotional email.</p>
+
+<h2>10. AWeber — small business newsletters</h2>
+
+<p>AWeber is the veteran of this list — in business since 1998 — and its free plan is a solid middle ground: 500 subscribers and 3,000 emails a month, with landing pages, signup forms and basic automation, plus live chat support on the free plan.</p>
+
+<p>The catch is the editor, which feels older than MailerLite's or Mailchimp's, and the template library is smaller. Paid plans start at $15 a month for 500 subscribers, removing AWeber branding and unlocking advanced automation and split testing.</p>
+
+<h2>Common mistakes when choosing a free email marketing tool</h2>
+
+<p>First, do not compare free plans by subscriber count alone: a 2,500-subscriber plan with 15,000 sends beats a 10,000-subscriber plan with no automation. Second, check the send limit, not just the list limit — Mailchimp's 500 emails a month runs out after two sends to a full list. Third, check whether automation is included: welcome emails and abandoned-cart sequences are the highest-value emails a small business sends, and several free plans here exclude them. Finally, look at the first paid price before you commit: the jump ranges from $3 to $49 a month, and switching tools later means rebuilding your templates and automations.</p>
+
+<h2>Frequently asked questions</h2>
+
+<p><b>Is a free email marketing tool really free forever?</b> Yes, for every tool in this list: the free plan has no time limit and asks for no credit card. What is limited is subscribers, sends or features — not the calendar. Free plans do shrink, though: MailerLite and Mailchimp both cut theirs in 2025–2026, so re-check before you sign up.</p>
+
+<p><b>Which free email marketing tool is best for a small business?</b> Sender, for most small businesses: 2,500 subscribers, 15,000 emails a month, automation included. If your list is large but you email rarely, Brevo's unlimited contacts win. Zoho users should pick Zoho Campaigns.</p>
+
+<p><b>Can I move my list to a paid plan later?</b> Yes. Every tool here lets you upgrade in place and keep your subscribers, templates and history. Moving to a different tool is possible by export, but automations and templates do not transfer, so choose with the paid price in mind.</p>
+
+<h2>Key takeaways</h2>
+
+<ul>
+<li>Sender is the best free email marketing tool for most small businesses; EmailOctopus is the simplest; Brevo suits a large list emailed rarely.</li>
+<li>Check the send limit and automation first — the first paid step ranges from $3 to $49 a month.</li>
+<li>Free plans shrink: MailerLite and Mailchimp both cut theirs in 2025–2026, so verify the limits on the vendor's pricing page first.</li>
+</ul>
+
+<p><i>This article is general information only, not professional advice. Free-plan limits and prices change often — check the vendor's pricing page before you sign up.</i></p>
+
+<h2>Try the free tools in this guide</h2>
+<ul>
+<li><a href="/tools/roi/"><b>ROI Calculator</b></a> — Check whether a paid plan earns back its monthly cost.</li>
+<li><a href="/tools/subscriptions/"><b>Subscription Tracker</b></a> — Add up what your software subscriptions really cost each month.</li>
+<li><a href="/tools/freelancerate/"><b>Freelance Rate Calculator</b></a> — Work out the hourly rate your business needs.</li>
+<li><a href="/tools/invoice/"><b>Invoice Generator</b></a> — Create a professional invoice for a client in seconds.</li>
+</ul>
+
+<h2>Keep reading</h2>
+<ul>
+<li><a href="/blog/top-10-free-crm-software-for-small-business-2027/"><b>Top 10 Free CRM Software for Small Business in 2027</b></a></li>
+<li><a href="/blog/freelancing-rates-guide/"><b>Freelancing Rates: How to Price Your Work Without Guessing</b></a></li>
+<li><a href="/blog/top-10-free-online-tools-for-freelancers-in-2027/"><b>Top 10 Free Online Tools for Freelancers in 2027</b></a></li>
+</ul>`},
 {slug:"top-10-free-project-management-tools-for-small-business-2027",title:"Top 10 Free Project Management Tools for Small Business in 2027",cat:"Productivity",date:"22 November 2026",kw:"Top 10 Free Project Management Tools for Small Business in 2027",
 seo:"Top 10 Free Project Management Tools for Small Business in 2027 | ToolNovo Blog",
 meta:"Compare the 10 best free project management tools for small business in 2027 — free users, project limits and paid prices for ClickUp, Trello, Asana, Notion and more.",
