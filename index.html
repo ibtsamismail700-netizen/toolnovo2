@@ -132,7 +132,7 @@
 <noscript>
 <div style="max-width:900px;margin:0 auto;padding:24px 20px;font-family:sans-serif;line-height:1.6">
 <h2>ToolNovo – Free Online Tools</h2>
-<p>ToolNovo offers 124 free online tools and calculators — including a Word Counter, Mortgage Calculator, Merge PDF and Image Compressor — plus 29 plain-English blog guides. Every tool is free with no sign-up, and everything runs in your browser, so your files and text are never uploaded. JavaScript is required to use the tools themselves.</p>
+<p>ToolNovo offers 124 free online tools and calculators — including a Word Counter, Mortgage Calculator, Merge PDF and Image Compressor — plus 38 plain-English blog guides. Every tool is free with no sign-up, and everything runs in your browser, so your files and text are never uploaded. JavaScript is required to use the tools themselves.</p>
 <p><b>Categories:</b></p>
 <ul>
 <li>Money &amp; Finance</li>
@@ -166,11 +166,11 @@
       <input type="text" id="toolSearch" placeholder="Search 124 tools — try “VAT”, “BMI”, “JSON”, “loan”…" aria-label="Search tools">
       <button class="btn btn-ink" type="button" id="heroSearchBtn">Search</button>
     </div>
-    <div class="hero-stats"><span><b>124</b> free tools</span><span><b>29</b> blog guides</span><span><b>100%</b> free — no signup</span><span><b>Private</b> — runs in your browser</span></div>
+    <div class="hero-stats"><span><b>124</b> free tools</span><span><b>38</b> blog guides</span><span><b>100%</b> free — no signup</span><span><b>Private</b> — runs in your browser</span></div>
   <div class="hero-trust"><span>✓ Free forever</span><span>✓ No signup required</span><span>✓ Nothing uploaded — tools run in your browser</span></div></section>
 <section id="tools">
     <div class="filters" role="group" aria-label="Filter tools by category">
-      <a class="chip chip-blog" href="/blog/">Blog — 29 guides</a>
+      <a class="chip chip-blog" href="/blog/">Blog — 38 guides</a>
       <button class="chip active" data-cat="all">All 124 tools</button>
       <button class="chip" data-cat="featured">★ Featured Tools<span class="n">10</span></button>
       <button class="chip" data-cat="finance">Money &amp; Finance<span class="n">34</span></button>
@@ -225,7 +225,7 @@
 (function(){
 var ID2SLUG={"words":"word-counter","password":"password-generator","qr":"qr-code-generator","caseconv":"case-converter","lorem":"lorem-ipsum-generator","age":"age-calculator","json":"json-formatter","base64":"base64-encoder","hexrgb":"color-picker","image":"image-compressor"};
 var PAGES={"about":"/about/","contact":"/contact/","privacy":"/privacy-policy/","terms":"/terms/","disclaimer":"/disclaimer/","dmca":"/dmca/","guides":"/guides/","sitemap":"/sitemap/","faqs":"/faqs/"};
-var BUILTIN_POSTS=["top-10-free-email-marketing-tools-for-small-business-2027","top-10-free-project-management-tools-for-small-business-2027","top-10-free-crm-software-for-small-business-2027","top-10-free-accounting-software-for-small-business-2027","401k-contribution-limits-2027","top-10-free-budgeting-apps-in-2027","top-10-free-online-tools-for-freelancers-in-2027","roth-ira-vs-401k","how-to-calculate-your-monthly-mortgage-payment-before-buying-a-home","mortgage-rates-explained","refinancing-a-mortgage","credit-card-debt-snowball-vs-avalanche","credit-card-interest-explained","auto-loans-explained","car-insurance-premium-guide","student-loans-explained","emergency-fund-guide","solar-panels-costs-savings-payback","vpn-explained","web-hosting-explained","strong-password-you-can-remember","two-factor-authentication-explained","compress-images-without-losing-quality","jpg-vs-png-vs-webp","speed-up-a-slow-website","check-if-a-website-is-safe","meta-tags-explained","how-search-engines-work","adsense-approval-guide","youtube-earnings-guide","freelancing-rates-guide","how-business-loans-work","bookkeeping-basics-small-business","how-to-price-a-product","side-hustle-taxes-guide","how-to-write-an-invoice","break-even-point-explained","llc-vs-sole-trader-guide"];
+var BUILTIN_POSTS=["top-10-free-time-tracking-tools-for-freelancers-2027","top-10-free-email-marketing-tools-for-small-business-2027","top-10-free-project-management-tools-for-small-business-2027","top-10-free-crm-software-for-small-business-2027","top-10-free-accounting-software-for-small-business-2027","401k-contribution-limits-2027","top-10-free-budgeting-apps-in-2027","top-10-free-online-tools-for-freelancers-in-2027","roth-ira-vs-401k","how-to-calculate-your-monthly-mortgage-payment-before-buying-a-home","mortgage-rates-explained","refinancing-a-mortgage","credit-card-debt-snowball-vs-avalanche","credit-card-interest-explained","auto-loans-explained","car-insurance-premium-guide","student-loans-explained","emergency-fund-guide","solar-panels-costs-savings-payback","vpn-explained","web-hosting-explained","strong-password-you-can-remember","two-factor-authentication-explained","compress-images-without-losing-quality","jpg-vs-png-vs-webp","speed-up-a-slow-website","check-if-a-website-is-safe","meta-tags-explained","how-search-engines-work","adsense-approval-guide","youtube-earnings-guide","freelancing-rates-guide","how-business-loans-work","bookkeeping-basics-small-business","how-to-price-a-product","side-hustle-taxes-guide","how-to-write-an-invoice","break-even-point-explained","llc-vs-sole-trader-guide"];
 function toolUrl(x){return "/tools/"+(ID2SLUG[x]||x)+"/";}
 window.goHome=function(e){if(e&&e.preventDefault)e.preventDefault();location.href="/";return false;};
 window.closeTools=function(){location.href="/";};

@@ -2452,6 +2452,125 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-time-tracking-tools-for-freelancers-2027",title:"Top 10 Free Time Tracking Tools for Freelancers in 2027",cat:"Productivity",date:"24 November 2026",kw:"Top 10 Free Time Tracking Tools for Freelancers in 2027",
+seo:"Top 10 Free Time Tracking Tools for Freelancers in 2027 | ToolNovo Blog",
+meta:"Compare the 10 best free time tracking tools for freelancers in 2027 — Toggl Track, Clockify, Harvest, RescueTime and more — with a comparison table, choosing guide, mistakes to avoid and FAQs.",
+excerpt:"Ten genuinely free time tracking tools for freelancers in 2027 — from simple one-click timers to automatic tracking — compared side by side so you can pick the one you will actually keep using.",
+tools:["freelancerate"],related:["top-10-free-email-marketing-tools-for-small-business-2027", "top-10-free-project-management-tools-for-small-business-2027"],fin:true,
+body:`<p>Freelancers do not sell hours — they sell results. But without tracking where those hours actually go, it is almost impossible to know which clients pay well and which projects eat your evenings. A good time tracker answers both questions, and the best news is that you do not have to pay for one to start.</p>
+
+<p>This guide compares ten genuinely free time tracking tools for freelancers in 2027. Each one has a usable free plan — not just a short trial — and each suits a different way of working, from simple one-click timers to automatic tracking that runs quietly in the background.</p>
+
+<h2>1. Toggl Track</h2>
+
+<p>Toggl Track is the tool most freelancers start with, and for good reason: it is one of the simplest timers ever made. Click start, type what you are working on, click stop. Your time is sorted by project and client, and a clean weekly report shows exactly where the week went.</p>
+
+<p>The free plan covers a small team with unlimited time entries and projects, plus summary reports and a Pomodoro timer — the best pick if you want tracking to feel invisible.</p>
+
+<h2>2. Clockify</h2>
+
+<p>Clockify is the most generous free plan on this list: unlimited users, projects and tracking, plus timesheets, a calendar view and basic reporting — all free. That makes it the natural choice if you work with subcontractors or a small team and still want one shared system.</p>
+
+<p>Its weekly timesheet view makes invoicing day far less painful: mark entries as billable and turn them into an invoice-ready summary.</p>
+
+<h2>3. Harvest</h2>
+
+<p>Harvest is built around one idea: time tracking should lead directly to getting paid. Its free plan is small — one user and two active projects — but for a freelancer with one or two regular clients, that is often all you need.</p>
+
+<p>Where Harvest earns its place is invoicing: tracked time becomes a professional invoice in a few clicks, with expenses and payment tracking included.</p>
+
+<h2>4. RescueTime</h2>
+
+<p>RescueTime works differently from every other tool here: it tracks automatically. Instead of starting and stopping a timer, it quietly records which apps and websites you use, then sorts them into productive and distracting categories.</p>
+
+<p>The free plan gives you the core automatic tracking and a daily focus report. It is the best option if you always forget to start the timer, or if you want honest data about how much of your "work day" actually goes to email and social media.</p>
+
+<h2>5. Hubstaff</h2>
+
+<p>Hubstaff is the strongest choice when your clients want proof of work. Its free plan covers a single user and includes time tracking with optional screenshots, activity levels and simple reports — the kind of transparency that reassures a client who hires remotely and has never met you.</p>
+
+<p>For freelancers, the most useful part is the automatic payroll and invoicing connection: tracked hours feed straight into payments, so Monday's logged hours become Friday's invoice without retyping anything.</p>
+
+<h2>6. TimeCamp</h2>
+
+<p>TimeCamp combines a one-click timer with automatic tracking and budgeting. Its free plan includes unlimited users and time tracking, which makes it a good fit if you sometimes bring in help on a project and want everyone on the same clock.</p>
+
+<p>The feature that sets it apart is project budgeting: you set an hours budget for a project, and TimeCamp shows you how much of it you have used as you go. That is how you catch a fixed-price project going over budget in week two, not when the work is done.</p>
+
+<h2>7. Everhour</h2>
+
+<p>Everhour is built for freelancers who already live inside project tools like Asana, Trello or Basecamp. Its timer sits inside those tools, so you track time without switching apps, and its free plan covers small teams getting started.</p>
+
+<p>Its reporting is the standout: time by task, estimates against actual hours, and which kinds of work consistently take longer than you quote. If your problem is under-pricing work, the estimates-versus-actuals view pays for itself in better quotes.</p>
+
+<h2>8. Paymo</h2>
+
+<p>Paymo is a small-business tool that works very well for a one-person business. Its free plan is aimed at solo users and covers time tracking, task management and basic invoicing in one place.</p>
+
+<p>The advantage is consolidation: your task list, timer and invoices all live together, so a tracked hour is already attached to the right task and client.</p>
+
+<h2>9. TrackingTime</h2>
+
+<p>TrackingTime is designed for teams that work across clients and time zones, and its free plan covers a small team with unlimited projects and tasks. Its calendar-style interface is its best feature: you drag tasks onto your day and the timer follows, which makes planning the week feel like filling a calendar rather than a form.</p>
+
+<p>It also handles online timesheets and approvals, which matters if a client wants to review your hours before you invoice — that approval step alone can cut days off payment time.</p>
+
+<h2>10. My Hours</h2>
+
+<p>My Hours keeps things deliberately simple: a timer, projects, tasks and reports, with a free plan covering unlimited projects and team members for the basics. There is no heavy project-management layer to learn, and the reports export cleanly to spreadsheets.</p>
+
+<p>It is the best pick if you want the minimum that works — a timer you can start in one click, a weekly summary you can send to a client, and nothing else competing for your attention.</p>
+
+<h2>Comparison Table: The 10 Tools at a Glance</h2>
+
+<p>Use this table to narrow the list to two or three candidates, then try each one for a week.</p>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Tool</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free plan</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Standout feature</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Toggl Track</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Small team, unlimited entries</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Simple daily tracking</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">One-click timer, clean reports</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Clockify</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Unlimited users and projects</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Teams and subcontractors</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free timesheets and billable hours</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Harvest</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1 user, 2 projects</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Tracking that becomes invoicing</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Invoices from tracked time</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">RescueTime</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Automatic tracking, daily report</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Finding where time leaks</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Automatic app and website tracking</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Hubstaff</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">1 user, tracking and reports</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Clients who want proof of work</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Activity levels and screenshots</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">TimeCamp</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Unlimited users, time tracking</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Fixed-price project budgets</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Hours-budget alerts</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Everhour</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Small teams getting started</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Pricing work accurately</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Estimates vs. actual hours</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Paymo</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Solo users, core features</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">One app for tasks, time and invoices</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Tasks, timer and invoicing together</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">TrackingTime</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Small team, unlimited projects</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Corporate clients and approvals</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Calendar planning and timesheet approval</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">My Hours</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Unlimited projects, basic features</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">The simplest possible setup</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Clean spreadsheet-ready reports</td></tr>
+</table>
+
+<h2>How to Choose the Right One</h2>
+
+<p>Start from your biggest pain, not from the longest feature list. If you forget to track, pick an automatic tool like RescueTime. If invoicing is the chore, pick Harvest or Paymo. If you work with a team, pick Clockify or TimeCamp. If you want the lightest possible habit, Toggl Track or My Hours will do.</p>
+
+<p>Whatever you choose, give it a full working week before judging it. Track everything, then look at the report on Friday. Most freelancers are surprised twice: once by how much time admin takes, and once by which client is actually their best-paying one per hour. That second surprise is the whole point — it tells you where to raise your rates and which work to take more of. If you want to turn those tracked hours into a rate check, ToolNovo's <a href="#/tool/freelancerate" data-tool-link="freelancerate">free freelance rate calculator</a> works out your real hourly rate from your target income.</p>
+
+<h2>Common Mistakes Freelancers Make With Time Tracking</h2>
+
+<p><strong>Tracking only billable work.</strong> Admin, emails, quotes and revisions are real work too. If you only track client hours, you will under-price the next quote because you forgot the unpaid half.</p>
+
+<p><strong>Rounding everything up.</strong> Rounding every small task to the nearest hour feels generous to you and unfair to the client. Track in real minutes and round only at the invoice stage.</p>
+
+<p><strong>Running two trackers at once.</strong> One timer per job is enough. Two tools means double entry and mismatched totals.</p>
+
+<p><strong>Never reviewing the reports.</strong> A tracker you never read is just a stopwatch. Spend ten minutes every Friday on the weekly report: it is the cheapest business review a freelancer can do.</p>
+
+<p><strong>Picking a tool for features you will never use.</strong> Screenshots, approvals and budget alerts are useful — for the freelancers who need them. If you do not, they are just clutter that makes you open the app less.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are free time tracking tools really free?</h3>
+<p>Yes — every tool in this list offers a free plan with no card required, not just a trial. Free plans usually cap team size, projects or advanced reports. For most solo freelancers, the free tier is enough for months or years.</p>
+
+<h3>Do I need a time tracker if I charge per project, not per hour?</h3>
+<p>Yes, arguably more so. Fixed-price work only stays profitable if you know how long it takes. Tracking hours on fixed-price projects shows your true hourly rate per project, which is the number that decides your next quote.</p>
+
+<h3>Can I switch tools later without losing my data?</h3>
+<p>Almost always. Every tool here exports time entries to a spreadsheet format, so you can move your history to another tracker. Pick the tool that fits today and switch when your business outgrows it — the data comes with you.</p>
+
+<h2>Key Takeaway</h2>
+
+<p>The best free time tracker is the one you actually use every day, and for most freelancers that means the simplest one that solves their biggest pain: <strong>Toggl Track for simplicity, Clockify for teams, Harvest for invoicing, RescueTime for automatic tracking.</strong> Pick one, track everything for a week, and read the Friday report — it will show you exactly where your hours go.</p>`},
 {slug:"top-10-free-email-marketing-tools-for-small-business-2027",title:"Top 10 Free Email Marketing Tools for Small Business in 2027",cat:"Productivity",date:"23 November 2026",kw:"Top 10 Free Email Marketing Tools for Small Business in 2027",
 seo:"Top 10 Free Email Marketing Tools for Small Business in 2027 | ToolNovo Blog",
 meta:"Compare the 10 best free email marketing tools for small business in 2027 — free subscribers, monthly email limits and paid prices for Sender, Brevo, MailerLite, Mailchimp and more.",
@@ -4126,7 +4245,7 @@ function featuredCard(id){var t=(typeof toolById==="function")?toolById(id):null
   var latest=document.createElement("section");latest.className="section home-extra";latest.id="homeLatest";latest.innerHTML="<h2>Latest from the Blog</h2><p class='sub'>Plain-English guides on money, security and the web — fresh reading, added regularly.</p><div class='blog-grid'>"+BLOG_POSTS.slice(0,6).map(function(p){return "<button type='button' class='blog-card' data-blog-open='"+p.slug+"'><span class='bmeta'><span class='tag'>"+blogEsc(p.cat)+"</span><span>"+blogEsc(p.date)+"</span><span>· "+blogReadTime(p.body)+" min read</span></span><h3>"+blogEsc(p.title)+"</h3><p>"+blogEsc(p.excerpt)+"</p><span style='font-weight:700;color:var(--brand);font-size:.9rem'>Read post →</span></button>";}).join("")+"</div><div class='btn-row' style='margin-top:14px'><a class='btn secondary' href='#/blog' data-blog-home>View all blog posts →</a></div>";
   if(toolsSec&&toolsSec.parentNode)toolsSec.parentNode.insertBefore(latest,toolsSec.nextSibling);homeExtras.push(latest);
   /* Hero trust points + stats */
-  var hero=document.querySelector(".hero");if(hero){var stats=hero.querySelector(".hero-stats");if(stats){stats.innerHTML="<span><b>124</b> free tools</span><span><b>29</b> blog guides</span><span><b>100%</b> free — no signup</span><span><b>Private</b> — runs in your browser</span>";}
+  var hero=document.querySelector(".hero");if(hero){var stats=hero.querySelector(".hero-stats");if(stats){stats.innerHTML="<span><b>124</b> free tools</span><span><b>38</b> blog guides</span><span><b>100%</b> free — no signup</span><span><b>Private</b> — runs in your browser</span>";}
   var trust=document.createElement("div");trust.className="hero-trust";trust.innerHTML="<span>✓ Free forever</span><span>✓ No signup required</span><span>✓ Nothing uploaded — tools run in your browser</span>";hero.appendChild(trust);}
 })();
 function hideHomeExtras(){homeExtras.forEach(function(s){s.classList.add("hidden");});}
