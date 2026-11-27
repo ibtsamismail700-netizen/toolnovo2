@@ -2452,6 +2452,106 @@ setTimeout(tnShowCookieBanner,700);
 var BLOG_CATS=["Money & Finance","Tech Guides","SEO","Security","Productivity","Web Basics","Online Tools"];
 var FIN_NOTE="General information only — not financial advice. Figures in this article are examples to explain how the maths works. Your own rates, fees and terms will differ, so confirm everything with your lender, insurer or a licensed adviser before you decide.";
 var BLOG_POSTS=[
+{slug:"top-10-free-seo-tools-for-small-business-2027",title:"Top 10 Free SEO Tools for Small Business in 2027",cat:"SEO",date:"27 November 2026",kw:"Top 10 Free SEO Tools for Small Business in 2027",
+seo:"Top 10 Free SEO Tools for Small Business in 2027 | ToolNovo Blog",
+meta:"The 10 best free SEO tools for small business in 2027: Google Search Console, GA4, Keyword Planner, Ahrefs Webmaster Tools and more — compared, with free limits and a simple 4-tool setup.",
+excerpt:"Ten genuinely free SEO tools for small business in 2027 — keyword research, site audits, backlinks and analytics, compared in one table, with the four-tool setup that covers every core SEO job.",
+tools:["readability", "metagen"],related:["meta-tags-explained", "how-search-engines-work"],fin:false,
+body:`<p>Search engine optimisation sounds expensive, but a small business does not need a paid subscription to start ranking. The free tier of the right tools covers keyword research, technical checks, backlinks and performance tracking well enough to grow real traffic.</p>
+
+<p>This guide rounds up the ten free SEO tools actually worth a small business owner's time in 2027. Every tool below has a genuinely useful free plan — not a trial that expires after a week — and each one does a job the others do not.</p>
+
+<h2>The 10 Tools at a Glance</h2>
+
+<table style="width:100%;border-collapse:collapse;margin:18px 0;font-size:15px">
+<tr><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Tool</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Best for</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Free limit</th><th style="border:1px solid #d1d5db;padding:10px 12px;background:#065f46;color:#ffffff;text-align:left">Standout feature</th></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Google Search Console</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Seeing how Google ranks you</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Fully free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Real search queries and clicks</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Google Analytics 4</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Measuring what visitors do</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Fully free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Organic traffic and conversions</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Google Keyword Planner</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Finding keywords with volume</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Fully free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Search volume from Google</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Ahrefs Webmaster Tools</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Audits and backlinks</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free for verified sites</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Full audit and backlink data</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Ubersuggest</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Quick keyword ideas</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">3 searches a day</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Keyword difficulty in one click</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">AnswerThePublic</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Questions people ask</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">3 searches a day</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Question and comparison maps</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">Screaming Frog</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Technical site crawls</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">500 URLs per crawl</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Finds broken links and duplicates</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Yoast SEO</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">On-page SEO in WordPress</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Free plugin version</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Live SEO and readability scoring</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600">MozBar</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Checking competitor strength</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Free browser extension</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left">Domain authority on any page</td></tr>
+<tr><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;font-weight:600;background:#f0fdf4">Bing Webmaster Tools</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">A second view of your site</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Fully free</td><td style="border:1px solid #d1d5db;padding:10px 12px;text-align:left;background:#f0fdf4">Keyword research and SEO reports</td></tr>
+</table>
+
+<h2>1. Google Search Console</h2>
+
+<p>If you install only one tool from this list, make it this one. Search Console is free, made by Google, and it is the only tool that shows you the exact search terms people typed before clicking your site. You can see which pages get impressions but no clicks — the clearest list of pages worth improving — and check whether Google has indexed your new pages. Set it up on day one and check the Performance report weekly.</p>
+
+<h2>2. Google Analytics 4</h2>
+
+<p>Search Console shows how people find you; Analytics shows what they do next. Google Analytics 4 (GA4) is free and tracks which pages visitors read, how long they stay, and which channels bring the visitors who actually buy or contact you. The traffic acquisition report splits visitors by source, so you can see whether organic search is growing month by month.</p>
+
+<h2>3. Google Keyword Planner</h2>
+
+<p>Keyword Planner lives inside Google Ads, but you do not need to run ads to use it. Create a free Google Ads account and you can look up how often people search for a phrase each month and how competitive it is. The numbers are ranges rather than exact figures, but they come directly from Google. Aim for phrases with steady monthly searches and low-to-medium competition — a small site wins those far sooner than a term every big brand is chasing.</p>
+
+<h2>4. Ahrefs Webmaster Tools</h2>
+
+<p>Ahrefs is one of the most expensive SEO platforms, but its Webmaster Tools tier is free for any site you verify as your own. It includes a full site audit that flags technical errors, a backlink checker showing who links to you, and keyword data for your own pages. The audit lists broken links, slow pages, missing titles and duplicate content in a prioritised report. Run it monthly and fix the errors marked high priority first.</p>
+
+<h2>5. Ubersuggest</h2>
+
+<p>Ubersuggest gives you keyword ideas, content suggestions and a basic site audit in a much simpler interface than the enterprise tools. The free plan allows three searches a day, which is enough for a small business planning one or two articles a week. Type in a topic, and it returns related keywords with search volume, difficulty scores and the pages currently ranking for them.</p>
+
+<h2>6. AnswerThePublic</h2>
+
+<p>Most keyword tools tell you what people search for. AnswerThePublic tells you how they ask it. Enter a topic and it maps the questions, comparisons and prepositions people type around it — "how much does X cost", "X vs Y", "best X for beginners". Those questions are ready-made article titles, and pages that answer a real question tend to win featured snippets. Use the three free daily searches to plan a week's worth of posts, then write the answers properly — one question, one clear answer, near the top of the page.</p>
+
+<h2>7. Screaming Frog SEO Spider</h2>
+
+<p>Screaming Frog is a desktop program that crawls your website the way a search engine does. The free version crawls up to 500 URLs, which covers most small business sites completely. It finds broken links, pages with missing or duplicate titles, oversized images, redirect chains and pages Google cannot reach. Use it every few months, or right after a redesign: export the errors, fix them in order of severity, and re-crawl to confirm they are gone.</p>
+
+<h2>8. Yoast SEO</h2>
+
+<p>If your site runs on WordPress, Yoast SEO is the standard free plugin for on-page optimisation. It adds a checklist to every page and post: keyword in the title, meta description length, internal links, image alt text and readability. The free version also generates your XML sitemap automatically, which you then submit to Search Console. Treat its green-light scores as a guide, not a target — write for readers first, then let Yoast catch the technical details.</p>
+
+<h2>9. MozBar</h2>
+
+<p>MozBar is a free browser extension that overlays SEO data on any page you visit. Open a competitor's page and you instantly see its domain authority, page authority and link count. Use it to judge whether you can outrank a competitor: if the top ten results for your keyword all have high authority and hundreds of links, pick a longer, more specific phrase instead. If they are weak or thin pages, you have found a winnable keyword.</p>
+
+<h2>10. Bing Webmaster Tools</h2>
+
+<p>Google gets the attention, but Bing still powers a meaningful share of searches, including all of Microsoft's search traffic. Bing Webmaster Tools is free, quick to set up — it can even import your settings from Google Search Console — and it includes its own keyword research tool and SEO reports that sometimes catch issues Google's tools do not mention. The ten minutes it takes to set up is the cheapest SEO win on this list.</p>
+
+<h2>How to Choose the Right Combination</h2>
+
+<p>You do not need all ten tools. Most small businesses do well with four: Search Console and Analytics as the always-on foundation, Keyword Planner or Ubersuggest for choosing topics, and Ahrefs Webmaster Tools for the monthly audit. Add AnswerThePublic when you need blog ideas, Screaming Frog after a redesign, and MozBar when you are sizing up a new keyword.</p>
+
+<p>If you want a quick way to check how readable your pages are, ToolNovo's free <a href="#/tool/readability" data-tool-link="readability">readability checker</a> scores any text in seconds, and the <a href="#/tool/metagen" data-tool-link="metagen">meta tag generator</a> builds clean title and description tags for each page.</p>
+
+<h2>Common Mistakes With Free SEO Tools</h2>
+
+<p><strong>Collecting tools instead of using them.</strong> Ten dashboards you never open are worth less than one you check weekly. Pick your core four and build a simple routine: Search Console on Monday, one audit a month.</p>
+
+<p><strong>Chasing volume over relevance.</strong> A keyword with 50,000 monthly searches that has nothing to do with your business is worse than a 200-search phrase typed by people ready to buy.</p>
+
+<p><strong>Trusting third-party scores as facts.</strong> Difficulty scores, authority scores and traffic estimates are educated guesses from private databases. Google's own data in Search Console is the only ground truth — use the other tools to prioritise, then verify against real clicks.</p>
+
+<p><strong>Ignoring the fixes.</strong> An audit that lists 40 errors is useless if nobody fixes them. Work through the high-priority items first: broken pages, missing titles and pages that take too long to load.</p>
+
+<p><strong>Expecting results in a week.</strong> SEO is a slow channel. New pages often take weeks to rank and months to reach their best position. Give them at least three months before judging a page.</p>
+
+<h2>Frequently Asked Questions</h2>
+
+<h3>Are free SEO tools good enough for a small business?</h3>
+<p>Yes, for most small businesses. The free tools above cover keyword research, audits, backlinks and analytics — the four jobs that matter. Paid tools mainly add scale: more keywords, more crawled pages and more competitor tracking. Until your site is large enough to need that scale, free tools are enough.</p>
+
+<h3>Which free SEO tool should I start with?</h3>
+<p>Google Search Console. It is free, it uses Google's own data, and it tells you what is already working on your site. Add Google Analytics 4 the same day so you can connect rankings to real visitors and sales.</p>
+
+<h3>Can free tools really show my competitors' keywords?</h3>
+<p>Partly. Ubersuggest and Ahrefs Webmaster Tools show some competitor keyword and backlink data for free, and MozBar shows authority scores on any page. Full competitor keyword lists are a paid feature everywhere, but the free data is enough to spot the gaps worth targeting.</p>
+
+<h3>How often should I run a site audit?</h3>
+<p>Once a month is a good rhythm for a small site, plus an extra crawl after any redesign, migration or big batch of new pages. Fix the high-priority errors each time and keep a note of what changed.</p>
+
+<h2>Key Takeaway</h2>
+
+<p>You do not need a paid SEO subscription to start ranking. <strong>Set up Google Search Console and Analytics, pick your keywords with Keyword Planner or Ubersuggest, answer real questions with AnswerThePublic, and keep the site technically clean with Ahrefs Webmaster Tools and Screaming Frog.</strong> That combination is free, covers every core SEO job, and is enough to grow a small business's search traffic month after month.</p>`},
 {slug:"top-10-free-pdf-tools-for-small-business-2027",title:"Top 10 Free PDF Tools for Small Business in 2027",cat:"Finance",date:"26 November 2026",kw:"Top 10 Free PDF Tools for Small Business in 2027",
 seo:"Top 10 Free PDF Tools for Small Business in 2027 | ToolNovo Blog",
 meta:"The 10 best free PDF tools for small business in 2027: merge, split, compress, sign and edit PDFs free, with a comparison table and tips for keeping sensitive files private.",
